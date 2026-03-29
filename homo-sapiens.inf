@@ -1,0 +1,2864 @@
+!% -~S
+!% $OMIT_UNUSED_ROUTINES=1
+!% $ZCODE_COMPACT_GLOBALS=1
+!% $ZCODE_LESS_DICT_DATA=1
+!% $ZCODE_MAX_INLINE_STRING=9999
+!% $MAX_ABBREVS=96
+!========================================
+! Homo Sapiens
+! Anthropos series #1 of 1
+! Copyright © 2026 Garry Francis
+!========================================
+!Constant DEBUG;
+
+Abbreviate "gelatinous fruit";              !     7x16, saved    80
+Abbreviate "tortoise shell";                !    12x14, saved   129
+Abbreviate " through the ";                 !    15x13, saved   150
+Abbreviate "rocky terrain";                 !     9x13, saved    84
+Abbreviate "molten metal";                  !     6x12, saved    48
+Abbreviate "narrow crack";                  !     6x12, saved    48
+Abbreviate "young woman";                   !     7x11, saved    51
+Abbreviate "You can't ";                    !    43x12, saved   418
+Abbreviate " substance";                    !     9x10, saved    60
+Abbreviate " from the ";                    !    28x10, saved   212
+Abbreviate "direction";                     !    13x 9, saved    82
+Abbreviate " nothing ";                     !    21x 9, saved   138
+Abbreviate " already ";                     !    21x 9, saved   138
+Abbreviate "ainforest";                     !    25x 9, saved   166
+Abbreviate "landslide";                     !    15x 9, saved    96
+Abbreviate "ranscript";                     !     8x 9, saved    47
+Abbreviate " of the ";                      !    77x 8, saved   453
+Abbreviate "dinosaur";                      !    16x 8, saved    87
+Abbreviate " in the ";                      !    41x 8, saved   237
+Abbreviate "yourself";                      !    15x 8, saved    81
+Abbreviate " to the ";                      !    57x 8, saved   333
+Abbreviate "he snake";                      !    12x 8, saved    63
+Abbreviate "brambles";                      !    19x 8, saved   105
+Abbreviate " looks ";                       !    14x 7, saved    61
+Abbreviate "branch";                        !    25x 6, saved    94
+Abbreviate " your ";                        !    51x 6, saved   198
+Abbreviate " that ";                        !    57x 6, saved   222
+Abbreviate " from ";                        !    20x 6, saved    74
+Abbreviate " with";                         !    34x 5, saved    96
+Abbreviate " some";                         !    36x 5, saved   102
+Abbreviate " are ";                         !    37x 5, saved   105
+Abbreviate "ould ";                         !    34x 5, saved    96
+Abbreviate " you ";                         !   159x 5, saved   471
+Abbreviate "climb";                         !    26x 5, saved    72
+Abbreviate "round";                         !    26x 5, saved    72
+Abbreviate "ntain";                         !    18x 5, saved    48
+Abbreviate ", but";                         !    37x 6, saved   142
+Abbreviate " the ";                         !   278x 5, saved   828
+Abbreviate ". The";                         !    38x 7, saved   181
+Abbreviate " what";                         !    18x 5, saved    48
+Abbreviate "This ";                         !    14x 6, saved    50
+Abbreviate " that";                         !    42x 5, saved   120
+Abbreviate " and ";                         !   121x 5, saved   357
+Abbreviate " down";                         !    24x 5, saved    66
+Abbreviate "tiger";                         !    20x 5, saved    54
+Abbreviate " not ";                         !    27x 5, saved    75
+Abbreviate "gorge";                         !    21x 5, saved    57
+Abbreviate "north";                         !    22x 5, saved    60
+Abbreviate "chasm";                         !    17x 5, saved    45
+Abbreviate "thing";                         !    47x 5, saved   135
+Abbreviate "water";                         !    27x 5, saved    75
+Abbreviate " you";                          !    73x 4, saved   140
+Abbreviate "burn";                          !    26x 4, saved    46
+Abbreviate "You ";                          !   120x 5, saved   354
+Abbreviate "east";                          !    28x 4, saved    50
+Abbreviate " to ";                          !   196x 4, saved   386
+Abbreviate "have";                          !    50x 4, saved    94
+Abbreviate " is ";                          !    78x 4, saved   150
+Abbreviate "n't ";                          !    77x 5, saved   225
+Abbreviate "The ";                          !    87x 5, saved   255
+Abbreviate "ing ";                          !   111x 4, saved   216
+Abbreviate "tree";                          !    34x 4, saved    62
+Abbreviate "rock";                          !    34x 4, saved    62
+Abbreviate " of ";                          !   103x 4, saved   200
+Abbreviate "It's";                          !    25x 6, saved    94
+Abbreviate "ight";                          !    31x 4, saved    56
+Abbreviate "can ";                          !    38x 4, saved    70
+Abbreviate "here";                          !    78x 4, saved   150
+Abbreviate "You'";                          !    48x 6, saved   186
+Abbreviate "'s ";                           !    65x 4, saved   124
+Abbreviate "est";                           !    49x 3, saved    46
+Abbreviate " in";                           !    77x 3, saved    74
+Abbreviate "rea";                           !    65x 3, saved    62
+Abbreviate "ear";                           !    50x 3, saved    47
+Abbreviate "ly ";                           !    59x 3, saved    56
+Abbreviate "ed ";                           !    58x 3, saved    55
+Abbreviate "ent";                           !    50x 3, saved    47
+Abbreviate "and";                           !    65x 3, saved    62
+Abbreviate " be";                           !    49x 3, saved    46
+Abbreviate "for";                           !    48x 3, saved    45
+Abbreviate "re ";                           !    60x 3, saved    57
+Abbreviate ".^^";                           !    16x 6, saved    58
+Abbreviate "out";                           !    65x 3, saved    62
+Abbreviate "ver";                           !    68x 3, saved    65
+Abbreviate "ing";                           !    84x 3, saved    81
+Abbreviate ". I";                           !    36x 5, saved   102
+Abbreviate "the";                           !    75x 3, saved    72
+Abbreviate " a ";                           !   107x 3, saved   104
+Abbreviate " it";                           !   112x 3, saved   109
+Abbreviate "ter";                           !    64x 3, saved    61
+Abbreviate "all";                           !    72x 3, saved    69
+Abbreviate ", ";                            !   138x 3, saved   135
+Abbreviate ". ";                            !   119x 3, saved   116
+Abbreviate "e.";                            !    57x 3, saved    54
+Abbreviate "s.";                            !    55x 3, saved    52
+Abbreviate "d.";                            !    39x 3, saved    36
+
+Constant Story "Homo Sapiens";
+Constant Headline "^Copyright (c) 2026 Garry Francis^https://bdb-project.itch.io^Type ABOUT for further info and credits.^^";
+
+Array UUID_ARRAY string "UUID://c88f4a5a-945a-445e-b85d-5372e3599add//";
+#Ifdef UUID_ARRAY;
+#Endif;
+
+Release 1;
+!Serial "YYMMDD";
+
+!Inform 6 constants
+Constant DEATH_MENTION_UNDO;
+Constant MAX_CARRIED = 10;
+Constant NO_SCORE;
+
+!PunyInform constants
+Constant CUSTOM_ABBREVIATIONS;
+Constant OPTIONAL_EXTENDED_METAVERBS;
+Constant OPTIONAL_EXTENDED_VERBSET;
+Constant OPTIONAL_FULL_DIRECTIONS;
+Constant OPTIONAL_PROVIDE_UNDO;
+Constant RUNTIME_ERRORS 0;!0 for release, 2 for debug
+
+!PunyInform static messages
+Constant MSG_ATTACK_DEFAULT "Violence is usually the answer, but it's not effective this time.";
+Constant MSG_COMMENT_NO_TRANSCRIPT "Comment recorded. Use SCRIPT ON to save future comments in a transcript.^";
+Constant MSG_COMMENT_TRANSCRIPT "Comment recorded.^";
+Constant MSG_DIG_NO_USE "The ground is too hard to dig here.";
+Constant MSG_JUMP "What for? You're a caveman, not an athlete.";
+Constant MSG_PARSER_NO_INPUT "You need to enter a command.";
+Constant MSG_PARSER_UNKNOWN_VERB "That's not a verb I recognise.";
+Constant MSG_PRAY_DEFAULT "You haven't invented religion yet, so there are no gods to pray to.";
+Constant MSG_SING_DEFAULT "You can't even talk, let alone sing.";
+Constant MSG_SORRY_DEFAULT "Oh, don't apologise.";
+Constant MSG_THINK_DEFAULT "Think, think, think. Nope, nothing comes to mind.";
+Constant MSG_WAIT_DEFAULT "Time passes...";
+
+!PunyInform dynamic messages
+Constant MSG_CLOSE_NOT_OPEN 1000;
+Constant MSG_LOCK_ALREADY_LOCKED 1001;
+Constant MSG_LOCK_CLOSE_FIRST 1002;
+Constant MSG_LOCK_KEY_DOESNT_FIT 1003;
+Constant MSG_UNLOCK_ALREADY_UNLOCKED 1004;
+Constant MSG_UNLOCK_KEY_DOESNT_FIT 1005;
+
+Constant MSG_FILL_NO_WATER 1006;
+Constant MSG_LISTEN_DEFAULT 1007;
+Constant MSG_SMELL_DEFAULT 1008;
+
+!Game-specific constants
+Constant SOME "some";
+Constant THE "the";
+Constant ALREADY_TAKEN_SOME "You've already taken some.";
+Constant ANIMALS_CANT_TALK "Animals can't talk, nor can you.";
+Constant CANT_CLIMB_TREES "You can't see any trees here that are suitable for climbing. Their trunks are too smooth.";
+Constant CANT_GET_CLOSE_ENOUGH_TO "The lava is too hot. You can't get close enough to ";
+Constant CANT_REACH_HER_THROUGH_BRAMBLES "You can't reach her through the brambles.";
+Constant CARRYING_TOO_MUCH "You're carrying too much to squeeze through the narrow crack.";
+Constant EXAMINE_FRUIT "Have you examined the fruit? ";
+Constant FRUIT_DESCRIPTION "The fruit consists of a thin, transparent skin covering a slimy substance. It gives off an intense sweet scent.";
+Constant LONG_WAY_DOWN "You'd best not. It's a long way down.";
+Constant KEEP_YOUR_DISTANCE_FROM_ANTS "You'd better keep your distance from the ants. You've seen the damage they can do in the past. One ant can sting you, but thousands of them can quickly cover you so that you can't free yourself from them. In a short period of time, your bones will be picked clean.";
+Constant MIGHT_NEED_IT_LATER "You'd better not, you might need it later.";
+Constant RAINFOREST_DESCRIPTION "The enormous rainforest extends around you, full of strange smells and sounds. The majestic trunks of the trees emerge from tufts of ferns, raising their branches towards the sky. You can go north, south, east or west.";
+Constant RAINFOREST_HINT "If you're lost in the rainforest, try using your sense of smell or hearing.";
+Constant SMELLS_SWEET "It smells very sweet.";
+Constant SMOKE_FROM_FERNS_HAS_PUTRID_SMELL "The smoke from the ferns is giving off a putrid smell.";
+Constant TIGER_WILL_POUNCE_ON_YOU "If you make a move in that direction, the tiger will surely pounce on you. The only safe exit is back the way you came.";
+Constant WATER_TRICKLES_THROUGH_FINGERS "The water trickles through your fingers.";
+Constant WHY_DONT_YOU_FOLLOW_IT " Why don't you follow it to see where it goes?";
+
+!Replaced actions
+Replace _UpdateDarkness;
+Replace GoSub; !Delete if diagonal directions are used
+Replace LockSub;
+Replace UnlockSub;
+
+Include "globals.h";
+
+!Game-specific variables
+
+!========================================
+! Entry point routines
+!========================================
+[ LibraryMessages p_msg p_arg_1 p_arg_2;
+  switch (p_msg)
+  {
+    MSG_CLOSE_NOT_OPEN:
+      print_ret (CTheyreOrIts)noun, " already closed.";
+    MSG_LOCK_ALREADY_LOCKED:
+      print_ret (CTheyreOrIts)noun, " already locked.";
+    MSG_LOCK_CLOSE_FIRST:
+      "You'll have to close ", (ItOrThem)noun, " first.";
+    MSG_LOCK_KEY_DOESNT_FIT:
+      print_ret (The)second, " ", (DoesntOrDont)second, " fit the lock.";
+    MSG_UNLOCK_ALREADY_UNLOCKED:
+      print_ret (CTheyreOrIts)noun, " already unlocked.";
+    MSG_UNLOCK_KEY_DOESNT_FIT:
+      print_ret (The)second, " ", (DoesntOrDont)second, " fit the lock.";
+    MSG_FILL_NO_WATER:
+      if (bulk_water in location)
+        "You need a container to put the water in.";
+      else
+        "There's no water here.";
+    MSG_LISTEN_DEFAULT:
+      if (room01.state == 2 or 3)
+        "You hear the occasional clap of thunder.";
+      else
+        "You hear nothing unexpected.";
+    MSG_SMELL_DEFAULT:
+      if (noun == player)
+        "You don't smell very nice. It's a pity deodorant hasn't been invented yet.";
+      else
+        "You smell only the natural smells of the environment.";
+  }
+  p_arg_1 = p_arg_2;
+];
+
+[ NewRoom;
+  if (woman has moved)
+  {
+    move woman to location;
+    print "The young woman follows you.^^";
+    rfalse;
+  }
+];
+
+Include "puny.h";
+
+!========================================
+! Initialisation
+!========================================
+[ Initialise;
+  location = room01;
+  lookmode = 2;
+  no_implicit_actions = true;
+  player.description = PlayerDescription;
+  "^When the Earth was still inhabited by giant beasts and its skies crossed by reptilian birds, early man lived like a wild animal, hunting with rudimentary weapons by day and seeking refuge in caves by night.^^The forests were enormous and beautiful. Among the vegetation, life could be found in a thousand different forms. Carpets of moss and leaves covered the ground and expanses of ferns surrounded the trunks of enormous trees. But these forests held many dangers. Man had to face these dangers in a never-ending battle for survival.^^You're one of these men, an early Homo sapiens. You have no name, as you have no need for one. All you know is that you have to satisfy your cravings: to find food to fill your belly, to rest when you're tired, and to find a mate.^";
+];
+
+!========================================
+! Classes
+!========================================
+Class OpenContainer
+with
+  invent
+  [;
+    if (inventory_stage == 2 && child(self) == 0)
+      rtrue;
+  ],
+has;
+
+!========================================
+! Room 1: Rainforest
+!========================================
+Object room01 "Rainforest"
+with
+  description RAINFOREST_DESCRIPTION,
+  n_to room02,
+  s_to room03,
+  e_to room02,
+  w_to room01,
+  u_to
+  [;
+    if (fire in self)
+      "You can't. The tree's on fire.";
+    if (snake in room12)
+      StartDaemon(snake);
+    return room12;
+  ],
+  before
+  [;
+    Hint:
+      if (room12 hasnt visited)
+        "Have you tried climbing the trees?";
+      if (fire in self && branch hasnt light)
+        "The tree is on fire. Do you have something that will burn?";
+      print_ret (string)RAINFOREST_HINT;
+    Listen:
+      if (noun == nothing)
+      {
+        print "You hear the ";
+        if (fire in self)
+          "crackling from the flames in the burning tree.";
+        else
+          "rustling of leaves overhead.";
+      }
+    Smell:
+      if (noun == nothing)
+      {
+        print "You smell ";
+        if (fire in self)
+          "smoke from the burning tree and a putrid smell from the ferns.";
+        else
+          "the fresh green foliage.";
+      }
+  ],
+  daemon
+  [;
+    if (location == room19)
+      rtrue;
+    if (self.state == 2 or 3 && player has general)
+    {
+      give player ~general;
+      "^The rain washes the gelatinous substance off your body.";
+    }
+    switch (self.state)
+    {
+      0:self.time_left++;
+        if (self.time_left == 2)
+        {
+          self.time_left = 0;
+          self.state = 1;
+          "^Suddenly, the sky darkens. It seems like a storm is approaching.";
+        }
+      1:self.time_left++;
+        if (self.time_left == 2)
+        {
+          self.time_left = 0;
+          self.state = 2;
+          "^It starts raining.";
+        }
+        "^Dark clouds roll across the sky.";
+      2:if (rocky_terrain in location && self hasnt general)
+        {
+          give self general;
+          "^A bolt of lightning strikes the rocky ground nearby. Whew, that was close! It must be attracted to the metallic glints in the rock.";
+        }
+        if (random(5) == 1)
+          "^Threatening streaks of lightning flash across the cloudy sky.";
+      3:self.time_left++;
+        if (self.time_left == 3)
+        {
+          move fire to room01;
+          move cold_metal to limbo;
+          move debris to limbo;
+          self.time_left = 0;
+          self.state = 4;
+          print "^A bolt of lightning suddenly strikes the tree where you left the piece of metal and sets it ablaze.";
+          if (location == room12)
+          {
+            print " The shock knocks you out of the tree and you hit the ground below with a painful THUD!^^";
+            PlayerTo(room01);
+            rtrue;
+          }
+          "";
+        }
+      4:switch (self.time_left++)
+        {
+          1:"^Just as suddenly as it started, the lightning stops.";
+          2:"^The rain stops.";
+          3:"^The clouds begin to clear.";
+          4:"^Spots of blue sky show through the clouds.";
+          5:"^The clouds are clearing.";
+          6:self.state = 5;
+            StopDaemon(self);
+            "^The clouds are gone and the land is once again bathed in sunshine.";
+        }
+    }
+  ],
+  state 0,
+  time_left 0,
+has light;
+
+!----------------------------------------
+! Sky (floating object)
+!----------------------------------------
+Object "sky"
+with
+  article THE,
+  name 'sky',
+  description
+  [;
+    switch (room01.state)
+    {
+      1:"The sky is cloudy.";
+      2 to 3:"Lightning streaks across the sky.";
+      4:"The sky is clearing.";
+      default:"The sky is clear.";
+    }
+  ],
+  found_in
+  [;
+    if (location ~= room19)
+      rtrue;
+  ],
+has scenery;
+
+!----------------------------------------
+! Rainforest (floating object)
+!----------------------------------------
+Object "rainforest"
+with
+  name 'enormous' 'rainforest' 'forest',
+  description "The rainforest is dominated by majestic trees that tower over you. Their rich green foliage blots out most of the sky.",
+  found_in room01 room02 room03 room12,
+has scenery;
+
+!----------------------------------------
+! Trees (floating object)
+!----------------------------------------
+Object "trees"
+with
+  name 'tree' 'trees' 'trunk' 'trunks' 'dense' 'majestic',
+  description
+  [;
+    print "The trees tower over you. You can sometimes find one that's climbable";
+    if (self in room12)
+      print " (like this one)";
+    print ", so you can seek refuge when being chased by a wild animal.";
+    if (fire in location)
+      print " One of the trees here is on fire, so you won't be able to climb that one.";
+    "";
+  ],
+  before
+  [;
+    Climb:
+      if (self in room12)
+        <<Go FAKE_D_OBJ>>;
+      else
+        <<Go FAKE_U_OBJ>>;
+  ],
+  found_in room01 room02 room03 room12,
+has pluralname scenery;
+
+!----------------------------------------
+! Branches (floating object)
+!----------------------------------------
+Object "branches"
+with
+  name 'branches',
+  description "All trees have branches and these ones are no exception.",
+  found_in room01 room02 room03,
+has pluralname scenery;
+
+!----------------------------------------
+! Leaves (floating object)
+!----------------------------------------
+Object "leaves"
+with
+  name 'foliage' 'leaves' 'rich' 'fresh' 'green',
+  description "The foliage of the rainforest trees is kept rich and green by the regular rainfall.",
+  found_in room01 room02 room03 room12,
+has pluralname scenery;
+
+!----------------------------------------
+! Undergrowth (floating object)
+!----------------------------------------
+Object "undergrowth"
+with
+  article THE,
+  name 'undergrowth' 'soil' 'ground' 'dirt' 'leaf' 'litter' 'damp' 'moist' 'decaying' 'rotting',
+  description "The soil of the undergrowth is kept nourished by the decaying leaf litter that falls from the tree branches overhead.",
+  react_before
+  [;
+    Dig:
+      if (noun == nothing)
+        <<Dig self>>;
+  ],
+  before
+  [;
+    Dig, Search:
+      "You find nothing but ", (name)worms, " that look inedible.";
+  ],
+  found_in room01 room02 room03,
+has scenery;
+
+!----------------------------------------
+! Worms (floating object)
+!----------------------------------------
+Object worms "worms and other creepy crawlies"
+with
+  name 'worm' 'worms' 'other' 'creepy' 'crawly' 'crawlies' 'insect' 'insects',
+  before
+  [;
+    Eat:
+      "You're not hungry enough to resort to eating ", (name)worms, ".";
+    Take:
+      "Yuck! Leave them alone, as you don't know which ones are dangerous.";
+  ],
+  found_in room01 room02 room03,
+has pluralname scenery;
+
+!----------------------------------------
+! Bulk ferns (floating object)
+!----------------------------------------
+Object bulk_ferns "ferns"
+with
+  name 'tufts' 'of' 'fern' 'ferns',
+  parse_name
+  [;
+    if (TestScope(ferns))
+      return 0;
+    return -1;
+  ],
+  description
+  [;
+    print "The ferns are grouped around the base of the trees in the rainforest, where they thrive in the damp soil created by rain water and leaf litter.";
+    if (fire in location)
+      print " The ferns at the base of the burning tree give off a lot of smoke and a putrid smell that would scare off any predator.";
+    "";
+  ],
+  before
+  [;
+    Cut:
+      if (ferns notin nothing)
+        "You've already cut some.";
+      if (CantBeCut())
+        rtrue;
+      if (fire in location)
+        "You can't get to the ferns because of the fire. Try some of the other ferns nearby.";
+      move ferns to location;
+      PronounNotice(ferns);
+      "You cut some ferns with the obsidian and they fall to the ground.";
+    Pull, Take:
+      if (ferns notin nothing)
+        print_ret (string)ALREADY_TAKEN_SOME;
+      "You try tugging on the ferns, but they're firmly rooted in the ground. You'll have to cut them with something sharp.";
+    Smell:
+      if (fire in location)
+        print_ret (string)SMOKE_FROM_FERNS_HAS_PUTRID_SMELL;
+  ],
+  found_in room01 room02 room03,
+has pluralname scenery;
+
+!----------------------------------------
+! Bunch of ferns
+!----------------------------------------
+Object ferns "ferns"
+with
+  article "a bunch of",
+  name 'bunch' 'of' 'fern' 'ferns',
+  description
+  [;
+    print "These are the ferns you cut from under the trees in the rainforest.";
+    if (self has light)
+      print " They're currently smouldering and giving off a putrid smell.";
+    "";
+  ],
+  before
+  [;
+    Burn:
+      if (self has light)
+        "They're already burning.";
+      if (location ~= room24)
+        "Not here.";
+      if (CantBeBurned())
+        rtrue;
+      if (self in player)
+        "Drop them first, unless you want to set yourself on fire.";
+      give self light;
+      print "You set light to the green ferns and they smoulder, giving off a terrible stench and a massive amount of smoke that stings your eyes.";
+      if (dinosaur in location)
+      {
+        move dinosaur to limbo;
+        print " The dinosaur rears back from the smoke, then turns and trundles off to the east. The young woman is now free of the terrible beast, but she's still stuck in the brambles.";
+      }
+      "";
+    Smell:
+      if (self has light)
+        print_ret (string)SMOKE_FROM_FERNS_HAS_PUTRID_SMELL;
+    Take:
+      if (self has light)
+        "You can't very well pick them up while they're burning.";
+  ],
+has pluralname;
+
+!----------------------------------------
+! Tree on fire
+!----------------------------------------
+Object fire "tree on fire"
+with
+  name 'fire',
+  description
+  [;
+    print "This is the tree that caught fire after the recent lightning strike. It looks like it will burn for quite a while, but the recent rain is protecting the other trees from catching light.";
+    if (branch hasnt light)
+      print " You wonder if you can make use of this fire.";
+    "";
+  ],
+  before
+  [;
+    Receive:
+      if (noun == branch)
+        <<Burn noun self>>;
+    Take:
+      "Youch! You burn your fingers.";
+  ],
+has static;
+
+!========================================
+! Room 2: Rainforest
+!========================================
+Object room02 "Rainforest"
+with
+  description RAINFOREST_DESCRIPTION,
+  n_to room01,
+  s_to room03,
+  e_to room07,
+  w_to room01,
+  u_to CANT_CLIMB_TREES,
+  before
+  [;
+    Hint:
+      print_ret (string)RAINFOREST_HINT;
+    Listen:
+      if (noun == nothing)
+        "You hear the occasional sound of small creatures scuffling about in the undergrowth.";
+    Smell:
+      if (noun == nothing)
+        "You smell the musty stench of rotting leaf litter and moist soil.";
+  ],
+has light;
+
+!========================================
+! Room 3: Rainforest
+!========================================
+Object room03 "Rainforest"
+with
+  description RAINFOREST_DESCRIPTION,
+  n_to room02,
+  s_to room03,
+  e_to room04,
+  w_to room01,
+  u_to CANT_CLIMB_TREES,
+  before
+  [;
+    Hint:
+      print_ret (string)RAINFOREST_HINT;
+    Listen:
+      if (noun == nothing)
+        "The rainforest is eerily quiet, apart from the occasional squeaking of branches as they rub against one another in the wind.";
+    Smell:
+      if (noun == nothing)
+        "You smell the earthy aroma of tree bark.";
+  ],
+has light;
+
+!========================================
+! Room 4: Edge of Rainforest
+!========================================
+Object room04 "Edge of Rainforest"
+with
+  description "You're at the edge of a rainforest. The dense trees of the forest extend to the north and give way to a rocky terrain to the east. You can also hear a stream to the south.",
+  n_to room03,
+  s_to room06,
+  e_to room05,
+  before
+  [;
+    Hint:
+      if (room06 hasnt visited)
+        "Follow the sound of the stream.";
+    Listen:
+      if (noun == nothing)
+        "You can hear the distinctive sound of rapidly running water to the south.";
+  ],
+has light;
+
+!----------------------------------------
+! Nearby rainforest (floating object)
+!----------------------------------------
+Object "rainforest"
+with
+  name 'rainforest' 'forest' 'edge' 'of' 'enormous',
+  description "The rainforest is nearby.",
+  found_in room04 room05 room07 room08,
+has scenery;
+
+!----------------------------------------
+! Nearby trees (floating object)
+!----------------------------------------
+Object "trees"
+with
+  name 'tree' 'trees' 'trunk' 'trunks' 'dense' 'majestic',
+  description "The trees are in the nearby rainforest.",
+  before
+  [;
+    Climb:
+      "The trees are too far away. You'll need to enter the rainforest.";
+  ],
+  found_in room04 room05 room07 room08,
+has scenery;
+
+!----------------------------------------
+! Rocky terrain (floating object)
+!----------------------------------------
+Object rocky_terrain "rocky terrain"
+with
+  name 'rock' 'rocks' 'rocky' 'terrain' 'territory' 'inhospitable' 'area' 'black' 'dark' 'ground',
+  description
+  [;
+    print "The rocky terrain was once rainforest, but lava from the nearby volcano burnt the trees and eventually cooled to form an inhospitable area.";
+    if (self in room05 or room08 or room13)
+      print " You notice that the black rock has metallic glints in it.";
+    "";
+  ],
+  found_in room04 room05 room07 room08 room09 room13,
+has scenery;
+
+!----------------------------------------
+! Metallic glints (floating object)
+!----------------------------------------
+Object "glints"
+with
+  name 'metallic' 'metal' 'glint' 'glints' 'speck' 'specks',
+  description "On a clear day, the sunlight reflects off these metallic specks like stars in the night sky.",
+  found_in room05 room08 room13,
+has pluralname scenery;
+
+!========================================
+! Room 5: Rocky Terrain
+!========================================
+Object room05 "Rocky Terrain"
+with
+  description "You're in a rocky terrain that continues to the north. The edge of the rainforest is to the west.",
+  n_to room13,
+  w_to room04,
+has light;
+
+!----------------------------------------
+! Branch
+!----------------------------------------
+Object branch "branch" room05
+with
+  short_name
+  [;
+    if (self has light)
+      print "burning ";
+    else if (self has general)
+      print "burnt ";
+    else if (snake in limbo)
+      print "bloodied ";
+    else
+      print "gnarled ";
+    rfalse;
+  ],
+  parse_name
+  [ state i;
+    if (self has light)
+      state = 'burning';
+    else if (self has general)
+      state = 'burnt';
+    else if (snake in limbo)
+      state = 'bloodied';
+    else
+      state = 'gnarled';
+    while (NextWord() == state or 'large' or 'branch' or 'club' or 'stick')
+      i++;
+    return i;
+  ],
+  description
+  [;
+    print "It's a large branch that";
+    if (self has light)
+      "'s burning with a bright flame.";
+    if (self has general)
+      "'s burnt on the end.";
+    if (snake in limbo)
+      "'s covered in blood on the end.";
+    " feels quite heavy. It would make a good club.";
+  ],
+  before
+  [;
+    Burn:
+      if (self has light)
+        "It's already lit and burning with a bright flame.";
+      if (location == room21)
+        print_ret (string)CANT_GET_CLOSE_ENOUGH_TO, "light the branch.";
+      if (fire notin location)
+        "You can't see any way to light it.";
+      give self general light;
+      "You put the end of the branch into the fire and it soon starts burning.";
+    Extinguish:
+      if (self hasnt light)
+        "It's not lit.";
+      give self ~light;
+      "You try blowing out the flame, but that doesn't work, so you rub the end of the branch on the ground until the flame is extinguished.";
+    Sharpen:
+      if (second == nothing && obsidian in player)
+      {
+        print "(with the obsidian)^";
+        second = obsidian;
+      }
+      if (second == nothing)
+        "You don't have anything sharp enough to sharpen the branch.";
+      if (second ~= obsidian)
+        print_ret (The)second, " ", (IsOrAre)second, "n't able to sharpen the branch.";
+      "You spend a while trying to sharpen the branch, but the wood is really hard and you barely make a scratch. You conclude that the branch would be better used as a club or a fire stick.";
+  ],
+  after
+  [;
+    Drop:
+      if (ants in location && self has light)
+        "When you drop the burning branch, some of the ants are burnt, but the others just keep their distance. There are far too many of them. You'd never be able to kill them all.";
+  ],
+has;
+
+!========================================
+! Room 6: Bank of Stream
+!========================================
+Object room06 "Bank of Stream"
+with
+  description "You've reached the bank of a tumultuous stream whose foaming waters travel from east to west. It's too dangerous to attempt to follow the stream or to cross it, so the only safe exit is back to the north.",
+  n_to room04,
+  s_to "Have you examined the stream? It's too dangerous.",
+  before
+  [;
+    Hint:
+      if (fruit in nothing && player hasnt general)
+        "Examine the strange plant.";
+      if (ants in room08)
+        print_ret (string)EXAMINE_FRUIT, "The sweet scent can be used to attract something, but not here.";
+      if (water in nothing && cold_metal in nothing)
+        "You'll need a container to get water.";
+      if (player hasnt general)
+        print_ret (string)EXAMINE_FRUIT, "The slimy substance can be smeared on something to make it slippery.";
+    Swim:
+      <<Go FAKE_S_OBJ>>;
+  ],
+has light;
+
+!----------------------------------------
+! Bank
+!----------------------------------------
+Object "bank" room06
+with
+  name 'bank' 'steep' 'rocky',
+  description "The bank of the stream is steep, but you can reach the churning water in the stream below.",
+has scenery;
+
+!----------------------------------------
+! Stream
+!----------------------------------------
+Object "stream" room06
+with
+  name 'tumultuous' 'stream',
+  description "You can reach the water in the stream, but it's too dangerous to enter unless you want to drown. You've seen one or two small animals enter this stream in the past and they were washed away, never to be seen again.",
+  before
+  [;
+    Drink:
+      "You can't drink the entire stream! Try drinking the water, instead.";
+    Enter:
+      <<Go FAKE_S_OBJ>>;
+  ],
+has scenery;
+
+!----------------------------------------
+! Dummy water
+!----------------------------------------
+Object bulk_water "water" room06
+with
+  article SOME,
+  name 'water' 'churning',
+  parse_name
+  [;
+    if (TestScope(water))
+      return 0;
+    return -1;
+  ],
+  description "The water looks cool and refreshing, but it's too dangerous to enter.",
+  before
+  [;
+    Drink:
+      "You reach down and scoop some of the water into your mouth. Aah, it's very refreshing.";
+    Enter:
+      <<Go FAKE_S_OBJ>>;
+    Take:
+      if (water notin nothing)
+        print_ret (string)ALREADY_TAKEN_SOME;
+      if (second == nothing && half_shell in player)
+      {
+        print "(with the tortoise shell)^";
+        second = half_shell;
+      }
+      if (second == nothing)
+        print_ret (string)WATER_TRICKLES_THROUGH_FINGERS;
+      if (second == shell)
+        "The tortoise shell is too heavy and awkward to use. While you try to get the water into the holes, it flows out of the other holes and keeps slipping from your grip. You give up because you don't want the shell to be carried away by the current.";
+      if (second ~= half_shell)
+        "You'll need a container to get the water and ", (the)second, " is certainly not a container.";
+      move water to half_shell;
+      PronounNotice(water);
+      "You scoop the water up into the tortoise shell.";
+  ],
+has scenery;
+
+!----------------------------------------
+! Water
+!----------------------------------------
+Object water "water"
+with
+  article SOME,
+  name 'water',
+  description "The water is cool and clear.",
+  before
+  [;
+    Drink:
+      remove self;
+      "Aah, the water is very refreshing.";
+    Give:
+      if (self in half_shell)
+        <<Give half_shell second>>;
+    PourT, PutOn, ThrowAt:
+      if (second == hot_metal)
+      {
+        move hot_metal to limbo;
+        move cold_metal to grooves;
+        remove water;
+        StartDaemon(room01);
+        "You pour all the water from the tortoise shell onto the molten metal, where it sizzles and steams. When the steam clears, you see that the molten metal has solidified, leaving a short pointed piece of shiny metal.";
+      }
+    Show:
+      if (self in half_shell)
+        <<Show half_shell second>>;
+    Take:
+      print_ret (string)WATER_TRICKLES_THROUGH_FINGERS;
+  ],
+has static;
+
+!----------------------------------------
+! Strange plant
+!----------------------------------------
+Object "strange plant" room06
+with
+  name 'strange' 'plant',
+  description "The strange plant is covered in gelatinous fruit.",
+  before
+  [;
+    Cut:
+      "Don't worry about the plant, just worry about what's growing on it.";
+    Pull, Take:
+      "You tug on the plant, but it's deeply rooted and refuses to budge.";
+  ],
+has static;
+
+!----------------------------------------
+! Bulk fruit
+!----------------------------------------
+Object "gelatinous fruit" room06
+with
+  name 'gelatinous' 'fruit' 'fruits' 'thin' 'transparent' 'skin' 'slimy' 'substance',
+  parse_name
+  [;
+    if (TestScope(fruit))
+      return 0;
+    return -1;
+  ],
+  description FRUIT_DESCRIPTION,
+  before
+  [;
+    Eat:
+      "The gelatinous fruit is very slippery, so it's a bit awkward to eat it while it's hanging on the plant. Try taking one first.";
+    Smell:
+      print_ret (string)SMELLS_SWEET;
+    Take:
+      if (fruit notin nothing)
+        "You've already taken one.";
+      move fruit to location;
+      PronounNotice(fruit);
+      <<Take fruit>>;
+  ],
+has scenery;
+
+!----------------------------------------
+! Gelatinous fruit
+!----------------------------------------
+Object fruit "gelatinous fruit"
+with
+  name 'gelatinous' 'fruit' 'thin' 'transparent' 'skin' 'slimy' 'substance',
+  description FRUIT_DESCRIPTION,
+  before
+  [;
+    Attack, Squeeze:
+      "The skin of the fruit is very thin, there's no need to ", (address)verb_word," it first.";
+    PutOn:
+      if (second == player && player has general)
+        "You've already done that.";
+      if (second == player)
+      {
+        remove self;
+        give player general;
+        "You break the skin of the gelatinous fruit and spread the slimy substance all over your body. When the substance is evenly distributed and there's none left in the fruit, you throw the skin away.";
+      }
+    Smell:
+      print_ret (string)SMELLS_SWEET;
+  ],
+  after
+  [;
+    Drop:
+      if (ants in location)
+      {
+        remove self;
+        move ants to limbo;
+        move tortoise to limbo;
+        move shell to location;
+        "The ants are attracted by the sweet scent of the gelatinous fruit and abandon the tortoise shell in favour of the fruit. Thousands of ants quickly tear the fruit into little pieces and carry the pieces away to their nest, leaving the tortoise shell unattended.";
+      }
+    Eat:
+      "The skin is very sweet, while the internal substance is tasteless.";
+  ],
+has edible;
+
+!========================================
+! Room 7: Edge of Rainforest
+!========================================
+Object room07 "Edge of Rainforest"
+with
+  description "You're at the edge of the rainforest that's to your west. The trees of the rainforest give way to a rocky terrain to the north.",
+  n_to room08,
+  w_to room02,
+has light;
+
+!========================================
+! Room 8: Rocky Terrain
+!========================================
+Object room08 "Rocky Terrain"
+with
+  description "The rocky terrain is blocked by a steep cliff to the east, but it looks like you could easily climb up. The rough rocks prevent you going in any other direction, apart from south, back towards the rainforest.",
+  s_to room07,
+  e_to "You can't walk through the rock. You can only climb up.",
+  u_to room09,
+  before
+  [;
+    Hint:
+      if (ants in self)
+        "Ants are attracted to sweet things.";
+      if (TestScope(shell))
+        "Examine the shell and do what is suggested, but not here.";
+  ],
+has light;
+
+!----------------------------------------
+! Cliff (floating object)
+!----------------------------------------
+Object "cliff"
+with
+  name 'steep' 'cliff' 'rock' 'face' 'handholds' 'footholds',
+  description "The cliff has plenty of handholds and footholds, so you can easily climb it.",
+  before
+  [;
+    Climb:
+      if (self in room08)
+        <<Go FAKE_U_OBJ>>;
+      if (self in room10)
+        <<Go FAKE_D_OBJ>>;
+      "Up or down?";
+  ],
+  found_in room08 room09 room10,
+has scenery;
+
+!----------------------------------------
+! Remains of a tortoise
+!----------------------------------------
+Object tortoise "remains of a tortoise" room08
+with
+  article THE,
+  name 'tortoise' 'remains' 'of' 'a//' 'the' 'shell',
+  description "It's the remains of a tortoise covered in large ants. The poor creature must have wandered out of the rainforest and died in the heat of the unfamiliar terrain.",
+  before
+  [;
+    Attack, Pull, Push, Take, Touch:
+      print_ret (string)KEEP_YOUR_DISTANCE_FROM_ANTS;
+  ],
+has static;
+
+!----------------------------------------
+! Large ants
+!----------------------------------------
+Object ants "large ants" room08
+with
+  name 'large' 'ants',
+  description "There are thousands of ants crawling all over the remains of the tortoise. They have eaten all the meat and nothing much remains apart from the shell.",
+  life
+  [;
+    Answer, Ask, Talk, Tell:
+      print_ret (string)ANIMALS_CANT_TALK;
+    Attack:
+      print_ret (string)KEEP_YOUR_DISTANCE_FROM_ANTS;
+    Give, ThrowAt:
+      if (noun == fruit)
+        <<Drop fruit>>;
+      if (noun == dead_snake)
+        <<Drop dead_snake>>;
+    Show:
+      "You can't show things to ants. If you could, I'm sure they'd all stop what they're doing and laugh at your stupidity.";
+  ],
+  before
+  [;
+    Take:
+      print_ret (string)KEEP_YOUR_DISTANCE_FROM_ANTS;
+  ],
+has animate neuter pluralname static;
+
+!----------------------------------------
+! Tortoise shell
+!----------------------------------------
+Object shell "tortoise shell"
+with
+  name 'tortoise' 'shell' 'dark' 'grey' 'deep' 'dome' 'domed' 'light' 'grey' 'gray' 'pan' 'six' 'holes' 'top' 'bottom' 'half',
+  description "The tortoise shell consists of a dark grey dome on top and a flatter light grey pan underneath. There are six holes where the top half meets the bottom half for the tortoise's legs, head and tail. You can't help thinking that the domed top half would make a good container, if only you could remove the bottom half.",
+  before
+  [;
+    Attack:
+      if (second == nothing)
+        "You don't have anything that will break it open. Perhaps you could throw it from a great height?";
+      if (second ~= branch)
+        "You need something more substantial than ", (a)second, " to separate the two halves of the tortoise shell.";
+      "Good idea, but the branch just bounces off the hard surface of the tortoise shell.";
+    Fill:
+      if (bulk_water in location)
+        <<Take bulk_water self>>;
+    Open:
+      "You can't find any way to open it. You'll have to break it open.";
+  ],
+has;
+
+!========================================
+! Room 9: Rock Face
+!========================================
+Object room09 "Rock Face"
+with
+  description "You're precariously perched on a rock face that leads up to a steep ridge and down to the rocky terrain below.",
+  u_to room10,
+  d_to room08,
+  before
+  [;
+    Exit, Jump, JumpOver:
+      print_ret (string)LONG_WAY_DOWN;
+    Hint:
+      "Keep climbing. Up or down. The choice is yours.";
+  ],
+  after
+  [;
+    Drop:
+      move noun to room08;
+      print_ret (The)noun, " fall", (SingularS)noun, " to the ground below.";
+  ],
+has light;
+
+!----------------------------------------
+! Steep ridge
+!----------------------------------------
+Object "steep ridge" room09
+with
+  name 'steep' 'ridge',
+  description "You can see the ridge clearer from the top.",
+has scenery;
+
+!========================================
+! Room 10: Top of Steep Ridge
+!========================================
+Object room10 "Top of Steep Ridge"
+with
+  description "You find yourself at the top of a steep ridge. The rock face that led you here is on the western side of the ridge. There are plenty of handholds and footholds, so you can easily climb back down. Other than that, the only possible direction from here is to the south, where the ridge continues.",
+  s_to room11,
+  w_to "The only thing to the west is the rock face. If you want to descend that, you'll have to go down.",
+  d_to room09,
+  before
+  [;
+    Exit, Jump, JumpOver:
+      print_ret (string)LONG_WAY_DOWN;
+  ],
+has light;
+
+!----------------------------------------
+! Steep ridge (floating object)
+!----------------------------------------
+Object "steep ridge"
+with
+  name 'top' 'of' 'steep' 'ridge',
+  description
+  [;
+    print "Now that you're on top of the ridge, you can see that it ";
+    if (self in room10)
+      print "has a rock face on the west side";
+    else
+      print "overlooks a chasm on the east side";
+    print " and continues to the ";
+    if (self in room10)
+      "south.";
+    else
+      "north.";
+  ],
+  found_in room10 room11,
+has scenery;
+
+!========================================
+! Room 11: Edge of Chasm
+!========================================
+Object room11 "Edge of Chasm"
+with
+  description "You're now at the southern end of the steep ridge where it overlooks a terrifying chasm on its eastern side. Looking down into the chasm makes you feel dizzy. You can't see the bottom of the chasm, so it must be a long way down. All you can see is a solitary sapling growing out of the side. As the chasm is too steep to climb, the only way out of here is back to the north.",
+  n_to room10,
+  e_to "The only thing to the east is the edge of the chasm.",
+  d_to "It's too steep.",
+  before
+  [;
+    Hint:
+      if (half_shell in nothing)
+        "It's a long way down, so don't throw anything in the chasm or it might break.";
+    Jump:
+      <<Enter chasm>>;
+  ],
+has light;
+
+!----------------------------------------
+! Chasm
+!----------------------------------------
+Object chasm "chasm" room11
+class OpenContainer
+with
+  name 'chasm' 'edge' 'of',
+  description "The chasm is very deep. You can't see the bottom of it from here.",
+  before
+  [;
+    Climb:
+      <<Go FAKE_D_OBJ>>;
+    Enter:
+      "Jumping into the chasm will only lead to a splattered corpse...yours...so you decide against it.";
+    JumpOver:
+      "You can't even see the other side, so you know you won't be able to jump that far.";
+    Search:
+      <<Examine self>>;
+    Receive, ThrownAt:
+      if (noun == branch && dead_snake in nothing)
+        print_ret (string)MIGHT_NEED_IT_LATER;
+      if (noun == fruit && ants in room08)
+        print_ret (string)MIGHT_NEED_IT_LATER;
+      if (noun == dead_snake && tiger in room16)
+        print_ret (string)MIGHT_NEED_IT_LATER;
+      print "You throw ", (the)noun, " into the chasm";
+      if (noun == shell)
+      {
+        move shell to limbo;
+        noun = half_shell;
+        print " and hear a hollow clunk when it hits the bottom";
+      }
+      move noun to room18;
+      ".";
+  ],
+has container open scenery;
+
+!----------------------------------------
+! Sapling (floating object)
+!----------------------------------------
+Object "sapling"
+with
+  name 'sapling' 'single' 'tree',
+  description "Forget it. It's way out of your reach.",
+  before
+  [;
+    Pull, Push, Take, Touch:
+      <<Examine self>>;
+  ],
+  found_in room11 room18,
+has scenery;
+
+!========================================
+! Room 12: In Branches of Tree
+!========================================
+Object room12 "In Branches of Tree"
+with
+  description "You find yourself between the thick branches of one of the many trees that make up the rainforest. This tree is taller than the surrounding ones, making it vulnerable to lightning strikes. You can't climb any higher, so the only way out of the tree is down.",
+  d_to
+  [;
+    if (snake in self)
+      StopDaemon(snake);
+    return room01;
+  ],
+  before
+  [;
+    Hint:
+      if (snake in self)
+        "You could try clobbering the snake or slipping out of its grasp.";
+      if (cold_metal notin nothing or nest)
+        "Have you examined the branches? Metal attracts lightning.";
+    Exit, Jump, JumpOver:
+      "It would be safer to climb down.";
+  ],
+  after
+  [;
+    Drop:
+      move noun to room01;
+      print_ret (The)noun, " fall", (SingularS)noun, " to the ground below.";
+    Go:
+      if (snake in self)
+      {
+        snake.time_left = 0;
+        StartDaemon(snake);
+      }
+  ],
+has light;
+
+!----------------------------------------
+! Branches
+!----------------------------------------
+Object "branches" room12
+with
+  name 'branches',
+  description "The uppermost branches of the tree appear to have been struck by lightning and burnt at some time in the past, giving a clear path for the pterosaur to fly to and from its nest.",
+has pluralname scenery;
+
+!----------------------------------------
+! Large nest
+!----------------------------------------
+Object nest "large nest" room12
+class OpenContainer
+with
+  name 'large' 'nest',
+  description
+  [;
+    print "It's probably the nest of some type of pterosaur. There are lots of them around here. ";
+    <<Search self>>;
+  ],
+  before
+  [;
+    Receive:
+      if (noun ~= cold_metal)
+        "I don't think the pterosaur would appreciate you leaving your junk in its nest, although pterosaurs do like shiny things.";
+    Take:
+      "You don't want anything to do with it, believe me. If the pterosaur comes back and sees you with its nest, it's sure to rip you to shreds.";
+  ],
+  after
+  [;
+    LetGo:
+      if (noun == cold_metal && room01.state == 3)
+        room01.state = 2;
+    Receive:
+      if (noun == cold_metal)
+        room01.state = 3;
+  ],
+has container open static;
+
+!----------------------------------------
+! Broken egg shells
+!----------------------------------------
+Object shells "broken egg shells" nest
+with
+  name 'broken' 'egg' 'eggs' 'shell' 'shells',
+  description "They look like the remains of the snake's last meal.",
+  before
+  [;
+    Take:
+      "You have no use for broken egg shells.";
+  ],
+has pluralname static;
+
+!----------------------------------------
+! Huge snake
+!----------------------------------------
+Object snake "huge snake" room12
+with
+  name 'huge' 'snake' 'serpent' 'python',
+  description
+  [;
+    print "It's a huge python. It's not venomous, but its body is as thick as your upper arm and it could easily crush you";
+    if (player has general)
+      print " if you weren't smothered in the slimy substance from the gelatinous fruit";
+    ".";
+  ],
+  life
+  [;
+    Answer, Ask, Talk, Tell:
+      print_ret (string)ANIMALS_CANT_TALK;
+    Attack:
+      if (second == nothing && branch in player)
+      {
+        print "(with the branch)^";
+        second = branch;
+      }
+      if (second == nothing)
+        "You can't attack a giant python with your bare hands.";
+      if (second ~= branch)
+      {
+        move second to room01;
+        print "You wield ", (the)second, " in an act of defiance, but the giant python just lunges at you and knocks ", (ItOrThem)second, " out of your hand. ";
+        if (second hasnt pluralname)
+          print "It falls";
+        else
+          print "They fall";
+        " to the ground below.";
+      }
+      StopDaemon(self);
+      move self to limbo;
+      move dead_snake to location;
+      PronounNotice(dead_snake);
+      "You bash the python over the head with the branch, again and again, until it's bloodied and lifeless.";
+    Give, ThrowAt:
+      "Don't aggravate the snake or it will find a way to digest you.";
+  ],
+  before
+  [;
+    Take:
+      "Do you have a death wish?";
+  ],
+  daemon
+  [;
+    self.time_left++;
+    if (self.time_left == 1)
+    {
+      switch (self.state)
+      {
+        0:self.state = 1;
+          "^The snake looks like it has just plundered the nest and now its attention is focussed on you.";
+        1:"^The snake sees that you've returned. It's not going to let you get away this time.";
+        2:"^The snake is smart. It knows that you're a slippery customer, so it keeps its eye on you.";
+      }
+    }
+    if (self.time_left == 2 && self.state < 2)
+    {
+      print "^Without warning, the snake lunges ";
+      if (player has general)
+      {
+        self.state = 2;
+        "and wraps itself around you in a death grip, but it can't get a hold because of the slimy substance coating your body. You manage to slip out of its grip and the snake backs off, knowing that this prey cannot be easily crushed.";
+      }
+      else
+      {
+        print "at you. Your survival instinct kicks in and you step back from the tree trunk, but there are no branches beneath your feet and you fall to the ground below. Fortunately, the ferns break your fall, so you aren't seriously injured.^^";
+        PlayerTo(room01, 2);
+        rtrue;
+      }
+    }
+  ],
+  state 0,
+  time_left 0,
+has animate neuter;
+
+!----------------------------------------
+! Dead snake
+!----------------------------------------
+Object dead_snake "dead snake"
+with
+  name 'carcass' 'of' 'huge' 'dead' 'snake' 'serpent' 'python' 'head',
+  description "It's the carcass of a huge python, its head bloodied and lifeless from where you bashed it in.",
+  before
+  [;
+    Attack:
+      "In case you hadn't noticed, the snake is dead. You can't make it any deader than it already is.";
+    Drop:
+      if (ants in location)
+        "Don't drop it here or the ants will pick it clean. A big carcass should be saved for a big predator.";
+    Eat:
+      "You're not hungry. Maybe later.";
+    Take:
+      if (snake in location)
+        "Are you crazy? If you attempt to take the tiger's meal, it will eat you for dessert.";
+      if (self in room19)
+        "The snake has served its purpose. Leave it here in case you get hungry later.";
+  ],
+  after
+  [;
+    Drop:
+      if (tiger in location)
+      {
+        move self to room19;
+        move tiger to room19;
+        "The tiger pounces on the dead snake and grabs it in its huge jaws. With some difficulty, it drags the snake away to the north to eat at its leisure. The path through the gorge is now clear.";
+      }
+    Take:
+      "Oof, it's very heavy, so you drape it over your shoulders.";
+  ],
+has;
+
+!========================================
+! Room 13: Rocky Terrain
+!========================================
+Object room13 "Rocky Terrain"
+with
+  description "You find yourself in a rocky terrain. The ground is very dark, almost black, and dark rocks of various sizes are strewn all around. Piles of ash have collected between the rocks and, every so often, the wind blows ash into the air. A rocky slope climbs up towards the east and the rocky terrain continues to the south.",
+  s_to room05,
+  e_to room14,
+  u_to room14,
+has light;
+
+!----------------------------------------
+! Rocky slope (floating object)
+!----------------------------------------
+Object "rocky slope"
+with
+  name 'rocky' 'slope',
+  description "The rocky slope leads up.",
+  found_in room13 room14,
+has scenery;
+
+!----------------------------------------
+! Peak of mountain (floating object)
+!----------------------------------------
+Object "peak"
+with
+  name 'peak' 'of' 'the' 'mountain' 'volcano',
+  description "The peak of the mountain is still some distance away, but you can go there if you keep climbing up.",
+  found_in room13 room14,
+has scenery;
+
+!----------------------------------------
+! Piles of ash
+!----------------------------------------
+Object "ash" room13
+with
+  article "piles of",
+  name 'piles' 'of' 'fine' 'ash',
+  description "It's fine ash from the volcano.",
+  before
+  [;
+    Dig, Search, Take:
+      "~Cough, cough, splutter.~ The fine ash gets in your mouth and down your throat. I think you should leave it alone.";
+  ],
+has scenery;
+
+!========================================
+! Room 14: Rocky Slope
+!========================================
+Object room14 "Rocky Slope"
+with
+  description "This rocky slope climbs further up towards the peak of a mountain that spews flames and smoke. You notice that the ground under your feet becomes increasingly hotter as you climb towards the peak. Relief from the heat can be found where the slope descends towards the west and also where it flattens out along an animal path to the north.",
+  n_to room15,
+  w_to room13,
+  u_to room20,
+  d_to room13,
+has light;
+
+!----------------------------------------
+! Animal path (floating object)
+!----------------------------------------
+Object "path"
+with
+  name 'animal' 'path',
+  description "This path indicates that animals aren't dumb enough to climb any higher up the mountain. Instead, they skirt it along this path.",
+  found_in room14 room15,
+has scenery;
+
+!========================================
+! Room 15: Western Wall of Chasm
+!========================================
+Object room15 "Western Wall of Chasm"
+with
+  description "You're atop the western wall of a chasm. You can see that there has been a landslide to the east that allows you to descend into the gorge below. If you don't want to go down, you can retreat by following the animal path to the south.",
+  s_to room14,
+  e_to "The landslide is that way. Try going down.",
+  d_to room16,
+has light;
+
+!----------------------------------------
+! West wall (floating object)
+!----------------------------------------
+Object "wall"
+with
+  name 'west' 'western' 'rock' 'wall',
+  description "The western wall has a giant scar from a landslide. This allows you to climb it.",
+  before
+  [;
+    Climb:
+      if (self in room15)
+        <<Go FAKE_D_OBJ>>;
+      else
+        <<Go FAKE_U_OBJ>>;
+  ],
+  found_in room15 room16,
+has scenery;
+
+!----------------------------------------
+! Chasm
+!----------------------------------------
+Object "chasm" room15
+with
+  name 'chasm' 'gorge',
+  description "The chasm is to the east. It's very deep, but its western wall has a landslide that allows you to climb down.",
+has scenery;
+
+!----------------------------------------
+! Landslide (floating object)
+!----------------------------------------
+Object "landslide"
+with
+  name 'landslide' 'giant' 'scar',
+  description
+  [;
+    print "The landslide forms a giant scar on the west wall of the ";
+    if (self in room15)
+      "chasm, which is to your east.";
+    else
+      "gorge. The rocks from the landslide have built up against the east wall of the gorge.";
+  ],
+  found_in room15 room16 room17,
+has scenery;
+
+!========================================
+! Room 16: Central Part of Gorge
+!========================================
+Object room16 "Central Part of Gorge"
+with
+  description "You've reached the central part of an enormous gorge that crosses the mountains from north to south. High rock walls define the gorge to the east and west. There has been a landslide down the west wall that allows you to climb up that side. The base of the wall to the east is strewn with rocks from the landslide.",
+  n_to
+  [;
+    if (tiger in self)
+      print_ret (string)TIGER_WILL_POUNCE_ON_YOU;
+    else
+      return room18;
+  ],
+  s_to
+  [;
+    if (tiger in self)
+      print_ret (string)TIGER_WILL_POUNCE_ON_YOU;
+    else
+      return room22;
+  ],
+  e_to
+  [;
+    if (tiger in self)
+      print_ret (string)TIGER_WILL_POUNCE_ON_YOU;
+    else
+      return room17;
+  ],
+  w_to "The west side of the gorge is faced by a rock wall, but you can climb up it due to the landslide.",
+  u_to room15,
+  before
+  [;
+    Hint:
+      if (tiger in self)
+        "If you can't get past the tiger, try feeding it or it might eat you first.";
+  ],
+has light;
+
+!----------------------------------------
+! Gorge (floating object)
+!----------------------------------------
+Object "gorge"
+with
+  name 'gorge' 'chasm' 'central' 'northern' 'southern' 'end' 'part' 'of' 'enormous' 'walls',
+  description
+  [;
+    print "The gorge is like a huge scar in the landscape. It's surrounded by high walls, except for where it continues to the ";
+    if (self in room16)
+      "north and south. A landslide in the western wall allows you to climb up the gorge to the west and the bulk of the rubble from the landslide is to the east.";
+    if (self in room18)
+      "south. There's also a cave to the north.";
+    if (self in room22)
+      "north. There's also a narrow crack in the wall to the south.";
+  ],
+  found_in room16 room18 room22,
+has scenery;
+
+!----------------------------------------
+! Mountains (floating object)
+!----------------------------------------
+Object "mountains"
+with
+  name 'mountain' 'mountains',
+  description "The high rock walls of the gorge obscure your view of the nearby mountains.",
+  found_in room16 room18 room22,
+has pluralname scenery;
+
+!----------------------------------------
+! Rubble (floating object)
+!----------------------------------------
+Object "rubble"
+with
+  name 'rubble' 'slab' 'of' 'rock' 'rocks' 'rough' 'sharp' 'jagged',
+  description
+  [;
+    print "This is the rubble left over from a landslide that occurred on the west side of the gorge. The rocks are mostly sharp and jagged.";
+    if (self in room16)
+      " You might be able to see more if you get closer.";
+    if (obsidian in nothing)
+    {
+      move obsidian to location;
+      print " In amongst the rocks, you can see a sharp-edged piece of obsidian.";
+    }
+    "";
+  ],
+  before
+  [;
+    Climb:
+      if (self in room16)
+        <<Go FAKE_E_OBJ>>;
+      else
+        <<Go FAKE_W_OBJ>>;
+    Enter:
+      if (self in room16)
+        <<Go FAKE_E_OBJ>>;
+    Exit:
+      if (self in room17)
+        <<Go FAKE_W_OBJ>>;
+    Search:
+      <<Examine self>>;
+  ],
+  found_in room16 room17,
+has scenery;
+
+!----------------------------------------
+! Sabre-toothed tiger
+!----------------------------------------
+Object tiger "sabre-toothed tiger" room16
+with
+  name 'tiger' 'sabre-toothed' 'saber-toothed' 'sabre' 'saber' 'toothed' 'beast',
+  initial
+  [;
+    print "A sabre-toothed tiger is ";
+    if (self in room16)
+      "basking in the sun. It eyes you up and down and licks its lips, as though it's surveying its next meal.";
+    else
+      "lounging in the cave. It watches you carefully to make sure that you don't steal its next meal.";
+  ],
+  description
+  [;
+    print "The beast is lying ";
+    if (self in room16)
+      print "on a slab of rock from the nearby landslide";
+    else
+      print "amongst the bones in the cave";
+    ". It looks relaxed, yet ready to pounce if you make a wrong move. It has a robust build with well-developed forelimbs and very long upper canines.";
+  ],
+  life
+  [;
+    Answer, Ask, Talk, Tell:
+      print_ret (string)ANIMALS_CANT_TALK;
+    Attack:
+      print "The tiger is bigger and stronger than you, so you can't get close enough to attack it without risking your own life. Perhaps you could ";
+      if (self in room16)
+        "distract it somehow.";
+      else
+        "scare it away somehow.";
+    Give, ThrowAt:
+      if (noun == fruit)
+        "Judging by those canines, the tiger looks like a meat eater.";
+      if (noun == half_shell && water in half_shell)
+        "If the tiger is thirsty, I'm sure it can find its own water without you risking your life.";
+      if (noun == dead_snake)
+        "Are you crazy? Just drop it and keep your distance.";
+    Show:
+      if (noun == dead_snake)
+        "The tiger sniffs the air and its muscles tense up. If you know what's good for you, you'd better drop that snake or get out of here before the tiger pounces on you.";
+  ],
+  before
+  [;
+    Eat:
+      "It's more likely that the tiger will eat you.";
+    Take:
+      "Are you daft? That beast would tear you limb from limb.";
+  ],
+  add_to_scope canines,
+has animate neuter;
+
+!----------------------------------------
+! Canines (floating object)
+!----------------------------------------
+Object canines "canines" !added to tiger
+with
+  name 'canines' 'very' 'long' 'curved' 'sharp' 'upper' 'teeth',
+  description "The tiger's canines are very long, curved and sharp. Keep your distance from them.",
+has pluralname scenery;
+
+!========================================
+! Room 17: Rubble from Landslide
+!========================================
+Object room17 "Rubble from Landslide"
+with
+  description "You're climbing amongst the rubble from the landslide that originated on the west side of the gorge and the resultant rubble built up against the eastern wall of the gorge. The rocks are rough and jagged and you can't make any further progress. You'll need to return to the gorge to the west.",
+  w_to room16,
+  before
+  [;
+    Hint:
+      if (obsidian in nothing)
+        "Rubble can hide things.";
+  ],
+has light;
+
+!----------------------------------------
+! Obsidian
+!----------------------------------------
+Object obsidian "piece of obsidian"
+with
+  name 'obsidian' 'sharp-edged' 'sharp' 'edged' 'piece' 'of' 'short' 'length' 'point' 'edge' 'edges' 'knife',
+  description "It's a short length of obsidian with a sharp point and edges. Of course, you don't know that it's called 'obsidian', but you do know that it's a natural volcanic glass that makes a very good cutting tool.",
+  before
+  [;
+    Touch:
+      "Be careful, it's very sharp.";
+  ],
+has;
+
+!========================================
+! Room 18: Northern End of Gorge
+!========================================
+Object room18 "Northern End of Gorge"
+with
+  description "You're at the northern end of a gorge. High rock walls surround you on all sides except to the south, where the gorge continues. When you look up, you see a single sapling leaning out from the top of the western wall. You also notice a trail of blood leading into a cave to the north.",
+  n_to room19,
+  s_to room16,
+  in_to room19,
+  before
+  [;
+    Hint:
+      if (half_shell in nothing && room11 hasnt visited)
+        "That sapling is a long way up. Have you seen it from above?";
+      if (half_shell in nothing)
+        "Here's some breaking news. If you were to throw something down here from the top of the chasm, who knows what might happen?";
+      if (TestScope(half_shell) && cold_metal in nothing && water in nothing)
+        "That shell is just begging to have something carried in it.";
+  ],
+has light;
+
+!----------------------------------------
+! Walls (floating object)
+!----------------------------------------
+Object "walls"
+with
+  name 'high' 'rock' 'face' 'wall' 'walls',
+  description
+  [;
+    print "The walls of the gorge tower over you. They are too steep to climb, although there's ";
+    if (self in room18)
+      "a cave in the wall to the north.";
+    if (self in room22)
+      "a narrow crack in the wall to the south.";
+  ],
+  found_in room18 room22,
+has pluralname scenery;
+
+!----------------------------------------
+! Cave (floating object)
+!----------------------------------------
+Object "cave"
+with
+  name 'small' 'cave' 'cleft' 'in' 'the' 'rock',
+  description
+  [;
+    print "The cave looks like a cleft in the rock. It's wide at the bottom and narrow at the top, as though the walls of the gorge had collapsed on themselves.";
+    if (self in room18)
+    {
+      print " A trail of blood leads into the cave.";
+      if (room19 hasnt visited)
+        print (string)WHY_DONT_YOU_FOLLOW_IT;
+    }
+    "";
+  ],
+  before
+  [;
+    Enter:
+      if (self in room18)
+        <<Go FAKE_N_OBJ>>;
+    Exit:
+      if (self in room19)
+        <<Go FAKE_S_OBJ>>;
+  ],
+  found_in room18 room19,
+has scenery;
+
+!----------------------------------------
+! Trail of blood
+!----------------------------------------
+Object "trail of blood" room18
+with
+  name 'trail' 'of' 'blood',
+  description
+  [;
+    print "It leads into the cave.";
+    if (room19 hasnt visited)
+      print (string)WHY_DONT_YOU_FOLLOW_IT;
+    "";
+  ],
+has scenery;
+
+!----------------------------------------
+! Top half of the tortoise shell
+!----------------------------------------
+Object half_shell "tortoise shell"
+class OpenContainer
+with
+  name 'top' 'half' 'of' 'the' 'tortoise' 'shell' 'dark' 'grey' 'deep' 'dome',
+  description
+  [;
+    print "It's the top half of a tortoise shell. It's a deep dome, coloured dark grey on the exposed outside and white on the inside. The bottom half of the shell is missing. This probably broke off and was lost amongst the rocks when you threw the shell into the chasm. ";
+    <<Search self>>;
+  ],
+  before
+  [;
+    Empty:
+      if (water notin self)
+        "It's already empty.";
+      remove water;
+      "You empty the water and it quickly evaporates.";
+    EmptyT:
+      if (noun == second)
+        "You can't empty the shell into itself.";
+      if (water notin self)
+        "The shell is already empty.";
+      if (second == grooves && hot_metal in second)
+        second = hot_metal;
+      if (second == hot_metal)
+        <<PutOn water second>>;
+      else
+        <<Empty self>>;
+    Fill:
+      if (water in self)
+        "The shell is already full.";
+      if (second == nothing && TestScope(bulk_water))
+      {
+        print "(with the water)^";
+        second = bulk_water;
+      }
+      if (second == nothing)
+        "You'll have to tell me what to fill it with.";
+      if (second ~= bulk_water)
+        "You can only fill the shell with liquids.";
+      <<Take second self>>;
+    Receive:
+      if (noun ~= water)
+        print_ret (The)noun, " won't fit in the shell.";
+  ],
+  after
+  [;
+    Drop:
+      if (water in self)
+      {
+        remove water;
+        "The water spills and quickly evaporates.";
+      }
+  ],
+has container open;
+
+!========================================
+! Room 19: Small Cave
+!========================================
+Object room19 "Small Cave"
+with
+  description "This small cave houses the remains of some men scattered about the floor of the cave. In the centre of the cave, you see the remains of a fireplace and some animal bones.",
+  s_to room18,
+  out_to room18,
+  before
+  [;
+    Hint:
+      if (tiger in self)
+        "This looks like the tiger's domain. I wonder if you could scare it off somehow.";
+      "Now that the tiger is gone, this would make a good shelter for you and your mate. You just need to find a mate.";
+  ],
+  each_turn
+  [;
+    if (tiger in self && branch in player && branch has light)
+    {
+      remove tiger;
+      print "^The tiger is clearly scared of the fire from the burning branch. It gives a roar and bounds past you out of the cave.^";
+    }
+    if (woman in self && tiger notin self)
+    {
+      deadflag = 2;
+      print "^Now that the tiger is gone, you have a comfy little shelter for you and your new mate. The first thing you do is to collect some moss and clean water to tend to her wounds. You then clean out the cave and cook the snake. She should like that after her ordeal with the dinosaur.^^After that...well, that's really none of your business.^";
+    }
+    rtrue;
+  ],
+has light;
+
+!----------------------------------------
+! Remains of some men
+!----------------------------------------
+Object "remains of the men" room19
+with
+  article THE,
+  name 'remains' 'of' 'some' 'the' 'men' 'skulls' 'skeletons',
+  description "The shape of their skulls is different to yours and their build seems shorter and stockier.",
+has pluralname scenery;
+
+!----------------------------------------
+! Remains of a fireplace
+!----------------------------------------
+Object "remains of the fireplace" room19
+with
+  name 'remains' 'of' 'a//' 'the' 'fireplace',
+  description "It looks like the fireplace was used to cook the animals.",
+has scenery;
+
+!----------------------------------------
+! Animal bones
+!----------------------------------------
+Object "animal bones" room19
+with
+  name 'bones' 'animal' 'animals' 'pile' 'of',
+  description "You deduce that the animals were cooked by the men and the men were eaten by the sabre-toothed tiger. You'd better get out of here before it decides to eat you!",
+  before
+  [;
+    Search, Take:
+      "You would have to get past the tiger to get to the bones, and that's not likely to happen without the tiger adding your bones to the pile.";
+  ],
+has pluralname scenery;
+
+!========================================
+! Room 20: Close to Peak
+!========================================
+Object room20 "Close to Peak"
+with
+  description "You're now very close to the peak of the mountain. The heat and smoke make it difficult, though not impossible, to climb any higher. Enormous puffs of steam rise around you and thin streams of molten rock pass by so close that you need to tread carefully to avoid burning your feet. Higher up, you see occasional bursts of flames and threatening splashes of that horrible lava. Perhaps it would be better to go back down to the relative safety of the lower slopes.",
+  u_to room21,
+  d_to room14,
+  before
+  [;
+    Hint:
+      if (hot_metal in grooves)
+        "Hot metal + water = cold metal.";
+  ],
+has light;
+
+!----------------------------------------
+! Peak of mountain
+!----------------------------------------
+Object "peak" room20
+with
+  name 'peak' 'of' 'the' 'mountain' 'volcano',
+  description "You're nearly at the peak of the volcano, but you'd be mad to climb any further.",
+has scenery;
+
+!----------------------------------------
+! Smoke
+!----------------------------------------
+Object "smoke" room20
+with
+  article THE,
+  name 'smoke' 'enormous' 'puffs' 'of' 'steam' 'bursts' 'flames' 'splashes' 'molten' 'rock',
+  description "The smoke, steam and bursts of flames indicate that you're very close to the top of the volcano. If you know what's good for you, you'll get out of here before the next eruption!",
+has scenery;
+
+!----------------------------------------
+! Heat-carved grooves
+!----------------------------------------
+Object grooves "heat-carved grooves" room20
+class OpenContainer
+with
+  name 'heat-carved' 'heat' 'carved' 'groove' 'grooves',
+  description
+  [;
+    print "The grooves are narrow channels, about as thick as your finger, that have been carved out of the rock by streams of molten lava. ";
+    <<Search self>>;
+  ],
+  before
+  [;
+    Receive:
+      if (noun ~= cold_metal)
+        "Don't waste your time trying to put things in the grooves.";
+    Touch:
+      print "As you reach down to touch the grooves, you feel ";
+      if (hot_metal in self)
+        "the heat rising from molten metal and change your mind.";
+      if (cold_metal in self)
+        "the cool metal.";
+      else
+        "their rough edges.";
+  ],
+has container open pluralname static;
+
+!----------------------------------------
+! Molten metal
+!----------------------------------------
+Object hot_metal "molten metal" grooves
+with
+  article SOME,
+  name 'molten' 'metal' 'short' 'stream' 'red-hot' 'red' 'hot',
+  description "It's a short stream of red-hot molten metal.",
+  before
+  [;
+    Take, Touch:
+      "As you reach down to touch the molten metal, you feel the heat rising from it and change your mind. You know this will burn your skin, so you'll have to cool it down first.";
+  ],
+has static;
+
+!----------------------------------------
+! Cold metal
+!----------------------------------------
+Object cold_metal "piece of metal"
+with
+  name 'short' 'piece' 'of' 'cold' 'cool' 'shiny' 'metal',
+  description "It's a short piece of shiny metal.",
+has;
+
+!========================================
+! Room 21: Rim of Volcano
+!========================================
+Object room21 "Rim of Volcano"
+with
+  description "You find yourself at the rim of a volcano. Its stifling heat and bubbling pools of molten rock are sufficient warning that you should head back down the mountain unless you want to be cooked.",
+  d_to room20,
+  before
+  [;
+    Hint:
+      "Get out of here before you're burnt by the lava!";
+  ],
+has light;
+
+!----------------------------------------
+! Volcano
+!----------------------------------------
+Object "volcano" room21
+with
+  name 'rim' 'of' 'volcano' 'bubbling' 'pools' 'molten' 'rock' 'lava',
+  description "Everything you see tells you to get out of here!",
+  before
+  [;
+    Enter:
+      "You're trying to find a mate, not find your maker.";
+    Receive, ThrowAt:
+      print_ret (string)CANT_GET_CLOSE_ENOUGH_TO, (address)verb_word, " anything into the volcano.";
+  ],
+has scenery;
+
+!========================================
+! Room 22: Southern End of Gorge
+!========================================
+Object room22 "Southern End of Gorge"
+with
+  description
+  [;
+    print "You've reached the southern end of the gorge, where you're faced by a rock wall that rises steeply towards the sky without offering any visible handholds. You can see that there's a very narrow crack in the wall";
+    if (debris in self)
+      print ", but it's clogged with debris";
+    else
+      print " that you could probably squeeze through";
+    ". The central part of the gorge is to the north.";
+  ],
+  n_to room16,
+  s_to
+  [;
+    if (debris in self)
+      "You can't get through the debris.";
+    if (children(player) > 1)
+      print_ret (string)CARRYING_TOO_MUCH;
+    if (player hasnt general)
+      "You can't squeeze through the narrow crack. Perhaps if you were more slippery, you could slip through.";
+    else
+      return room23;
+  ],
+  before
+  [;
+    Hint:
+      if (debris in self)
+        "You need to clear the debris, but you can't do it yourself. Come back later.";
+      if (children(player) > 1)
+        "If you can't squeeze through the crack, don't carry so much.";
+      if (player hasnt general)
+        "If you still can't squeeze through the crack, try making yourself slippery.";
+  ],
+has light;
+
+!----------------------------------------
+! Debris
+!----------------------------------------
+Object debris "debris" room22
+with
+  article SOME,
+  name 'debris' 'sticks' 'leaves',
+  description
+  [;
+    print "The debris consists of sticks and leaves that have been washed into the narrow split in the rock face after heavy rain. It would take more heavy rain to wash it away.";
+    if (room01.state == 2 or 3)
+      print " Maybe check back after the storm subsides.";
+    "";
+  ],
+  before
+  [;
+    Pull, Push, Take:
+      "There's too much debris for you to move. You'll have to let nature take its course.";
+    Search:
+      "There's nothing to eat in the debris, only sticks and leaves.";
+  ],
+has scenery;
+
+!----------------------------------------
+! Passage (floating object)
+!----------------------------------------
+Object "passage"
+with
+  name 'crack' 'narrow' 'passage' 'split',
+  description
+  [;
+    print "There's a narrow crack in the rock face";
+    if (debris in location)
+      ", but it's clogged with debris.";
+    print " that reveals a passage to the ";
+    if (self in room22)
+      "south.";
+    else
+      "north.";
+  ],
+  before
+  [;
+    Enter:
+      if (self in room22)
+        <<Go FAKE_S_OBJ>>;
+      else
+        <<Go FAKE_N_OBJ>>;
+  ],
+  found_in room22 room23,
+has scenery;
+
+!========================================
+! Room 23: Grassy Valley
+!========================================
+Object room23 "Grassy Valley"
+with
+  description "There's a narrow passage in the rock wall to the north that has brought you to this large grassy valley. It's a very pleasant spot surrounded by lush green grass and pretty flowers. The valley extends to the east.",
+  n_to
+  [;
+    if (children(player) > 1)
+      print_ret (string)CARRYING_TOO_MUCH;
+    else
+      return room22;
+  ],
+  e_to room24,
+has light;
+
+!----------------------------------------
+! Grassy valley (floating object)
+!----------------------------------------
+Object "valley"
+with
+  name 'large' 'grassy' 'valley' 'lush' 'green' 'grass',
+  description
+  [;
+    print "The grassy valley is a very pretty spot with lush green grass and ";
+    if (self in room23)
+      "fragrant flowers.";
+    else
+      "a patch of wild brambles.";
+  ],
+  found_in room23 room24,
+has scenery;
+
+!----------------------------------------
+! Flowers
+!----------------------------------------
+Object "flowers" room23
+with
+  name 'fragrant' 'flower' 'flowers',
+  description "The flowers sway in the gentle breeze.",
+  before
+  [;
+    Eat:
+      "They are food for bees, not food for you.";
+    Smell:
+      "They smell nice.";
+    Take:
+      "Do you plan to set up a flower shop? You wouldn't have many customers.";
+  ],
+has pluralname scenery;
+
+!========================================
+! Room 24: Valley
+!========================================
+Object room24 "Valley"
+with
+  description "The grassy valley continues from the west to the east. This part of the valley has been overgrown by a wild patch of brambles.",
+  e_to
+  [;
+    if (dinosaur in self)
+      "The dinosaur blocks that direction. If you try to get past it, you'll get trampled...or eaten...or both.";
+    else
+      "The dinosaur went that way. If you know what's good for you, you'll head the opposite way.";
+  ],
+  w_to room23,
+  before
+  [;
+    Hint:
+      if (dinosaur in self)
+        "You need to get rid of the dinosaur. Dinosaurs don't like fire...or smoke!";
+      if (brambles hasnt general)
+        "You need something sharp to cut the brambles.";
+    Smell:
+      if (noun == nothing && ferns in self && ferns has light)
+        <<Smell ferns>>;
+  ],
+has light;
+
+!----------------------------------------
+! Brambles
+!----------------------------------------
+Object brambles "brambles" room24
+with
+  name 'bramble' 'brambles' 'wild' 'patch' 'of' 'tangle' 'spiky' 'plants',
+  description
+  [;
+    print "The brambles are a tangle of spiky plants";
+    if (self hasnt general)
+    {
+      print ". The woman has somehow got herself stuck in the brambles and they're tearing at her skin.";
+      if (dinosaur in location)
+        print " At the same time, the brambles are protecting the woman from the dinosaur, as it can't get to her through the brambles.";
+    }
+    else
+      print " with a path cut through them.";
+    "";
+  ],
+  before
+  [;
+    Burn:
+      if (CantBeBurned())
+        rtrue;
+      "If you burn the brambles, you'll also burn the woman, so you decide against it, as mates are hard to find.";
+    Cut:
+      if (self has general)
+        "You've already cut a path through the brambles.";
+      if (dinosaur in location)
+        "You can't get to the brambles while the dinosaur is standing over them. You'll need to get rid of the dinosaur first.";
+      if (CantBeCut())
+        rtrue;
+      give self general;
+      give woman moved;
+      "You use the obsidian to cut a path through the brambles. The woman can now free herself. She carefully picks her way through the brambles and gives you a big hug. Ooh, she feels nice. She's strong and muscular, but sort of soft and curvy in some places. She looks into your eyes, as if to say ~Thank you~, but she can't say that as early Homo sapiens haven't yet learnt to talk. This one will make a good mate. You think she will follow you. You just need to find somewhere that's safe from the wild animals.";
+  ],
+has pluralname scenery;
+
+!----------------------------------------
+! Young woman
+!----------------------------------------
+Object woman "young woman" room24
+with
+  name 'young' 'woman',
+  initial
+  [;
+    print "A young woman of your race is stuck in the brambles and ";
+    if (dinosaur in location)
+      "screaming her lungs out.";
+    else
+      "waiting for you to rescue her, or so it seems.";
+  ],
+  description
+  [;
+    print "She is naked (like you), but she is nowhere near as hairy. Her body is shaped differently and you like what you see. She would make a good mate";
+    if (dinosaur in location)
+      print ", except that she's screaming a lot. Do women always scream this much? She looks scared, so maybe the dinosaur has something to do with that. If you can get rid of the dinosaur, she might stop screaming";
+    ".";
+  ],
+  life
+  [;
+    if (brambles hasnt general)
+      print_ret (string)CANT_REACH_HER_THROUGH_BRAMBLES;
+    Answer, Ask, Talk, Tell:
+      "I have no idea what you mean, as your species hasn't yet learnt to talk.";
+    Attack, ThrowAt:
+      "That's no way to treat a potential mate.";
+    Give:
+      "She doesn't know what to do with ", (the)noun, " and gives ", (ItOrThem)noun, " back to you.";
+    Kiss:
+      "The young woman initially backs off, but when she realises you mean her no harm, she embraces you, your lips meet and you feel all strange and tingly inside.";
+    Show:
+      "She looks confused, as though she doesn't know what to do with ", (the)noun, ".";
+    WakeOther:
+      "She's not asleep.";
+  ],
+  before
+  [;
+    Take:
+      if (brambles hasnt general)
+        print_ret (string)CANT_REACH_HER_THROUGH_BRAMBLES;
+      else
+        "There's no need. She'll follow you, as you are her hero.";
+  ],
+has animate female;
+
+!----------------------------------------
+! Dinosaur
+!----------------------------------------
+Object dinosaur "dinosaur" room24
+with
+  name 'dinosaur' 'dino' 'bipedal' 'carnivorous' 'meat-eater' 'meat' 'eater',
+  initial "A dinosaur is trying to get to the woman, but it can't get through the brambles.",
+  description "It's a bipedal dinosaur that's somewhat taller than you. It's no doubt carnivorous, as it's slobbering and drooling at the sight of the young woman and trying to get to her through the brambles.",
+  life
+  [;
+    Answer, Ask, Talk, Tell:
+      print_ret (string)ANIMALS_CANT_TALK;
+    Attack:
+      "Be realistic. You would never stand a chance against that beast.";
+    Give, ThrowAt:
+      "The dinosaur is pre-occupied with the young woman, but she's safe while she's protected by the brambles. It's best that you don't attract the dinosaur to yourself.";
+  ],
+  before
+  [;
+    Take, Touch:
+      "Any attempt to touch the dinosaur would only attract attention to yourself.";
+  ],
+has animate neuter;
+
+!========================================
+! Limbo
+!========================================
+Object limbo;
+
+!========================================
+! Printing rules
+!========================================
+[ consultWord word i;
+  for (i=0:i<WordLength(word):i++)
+    print (char)LowerCase(WordAddress(word)->i);
+];
+
+[ DoesntOrDont obj;
+  if (obj has pluralname)
+    print "don't";
+  else
+    print "doesn't";
+];
+
+[ firstConsultWord word i;
+  for (i=0:i<WordLength(word):i++)
+    if (i == 0)
+      print (char)UpperCase(WordAddress(word)->i);
+    else
+      print (char)LowerCase(WordAddress(word)->i);
+];
+
+!========================================
+! Other routines
+!========================================
+[ _UpdateDarkness p_silent _ceil _old_darkness _darkness;
+  if (location == thedark)
+    _old_darkness = true;
+  _ceil = ScopeCeiling(player);
+  if (_LookForLightInObj(_ceil, _ceil) == false)
+    _darkness = true;
+  if (_darkness ~= _old_darkness)
+    scope_modified = true;
+  if (_darkness)
+    location = thedark;
+  else
+    location = real_location;
+  if (_darkness ~= _old_darkness && p_silent == false)
+  {
+    new_line;
+    <Look>;
+  }
+];
+
+[ CantBeBurned;
+  if (second == nothing && branch in player && branch has light)
+  {
+    print "(with the burning branch)^";
+    second = branch;
+  }
+  if (second == nothing)
+    "You have nothing to burn ", (ItOrThem)noun, " with.";
+  if (second ~= branch || branch hasnt light)
+    "You can't burn ", (the)noun, " with ", (ThatOrThose)second, ".";
+  rfalse;
+];
+
+[ CantBeCut;
+  if (second == nothing && obsidian in player)
+  {
+    print "(with the obsidian)^";
+    second = obsidian;
+  }
+  if (second == nothing)
+    "You have nothing to cut ", (ItOrThem)noun, " with.";
+  if (second ~= obsidian)
+    print_ret (The)second, " ", (IsOrAre)second, "n't sharp enough to cut ", (the)noun, ".";
+  rfalse;
+];
+
+[ LowerCase c; ! for ZSCII matching ISO 8859-1
+  switch (c)
+  {
+    'A' to 'Z': c = c + 32;
+    202, 204, 212, 214, 221: c--;
+    217, 218: c = c - 2;
+    158 to 160, 167, 168, 208 to 210: c = c - 3;
+    186 to 190, 196 to 200: c = c - 5 ;
+    175 to 180: c = c - 6;
+  }
+  return c;
+];
+
+[ PlayerDescription;
+  print "You're naked and afraid, always afraid. Your body is thin and wiry, covered only in hair";
+  if (player has general)
+    print " and a gelatinous substance that makes you slippery";
+  ". You have arms to fight your prey and legs to run when you're the prey. But you have an advantage, for you're able to think, to make primitive tools and to outwit the beasts that want to eat you.";
+];
+
+[ UpperCase c; ! for ZSCII matching ISO 8859-1
+  switch (c)
+  {
+    'a' to 'z': c = c - 32;
+    201, 203, 211, 213, 220: c++;
+    215, 216: c = c + 2;
+    155 to 157, 164, 165, 205 to 207: c = c + 3;
+    181 to 185, 191 to 195: c = c + 5 ;
+    169 to 174: c = c + 6;
+  }
+  return c;
+];
+
+!========================================
+! Grammar
+!========================================
+Extend 'ask'
+  * 'about' topic -> AskAbout;
+
+Extend 'blow' replace
+  * noun -> Blow
+  * 'on'/'onto' noun -> Blow
+  * 'out' noun -> Extinguish
+  * noun 'out' -> Extinguish;
+
+Extend only 'break' 'crack' 'smash'
+  * 'apart'/'open' noun -> Attack
+  * noun 'apart'/'open' -> Attack
+  * 'apart'/'open' noun 'with' held -> Attack
+  * noun 'apart'/'open' 'with' held -> Attack;
+
+Extend 'climb' first
+  * 'up' -> Ascend
+  * 'up' noun -> Ascend
+  * 'down' -> Descend
+  * 'down' noun -> Descend
+  * 'off' noun -> Exit
+  * 'in'/'on'/'out'/'through' noun -> Enter;
+
+Extend 'cut' first
+  * noun 'with' held -> Cut;
+
+Extend 'dig'
+  * -> Dig;
+
+Extend 'drop' !mainly used for throw
+  * multiexcept 'inside' noun -> Insert
+  * held 'across'/'to'/'over' noun -> ThrowAt;
+
+Extend 'empty'
+  * noun 'in'/'inside' noun -> EmptyT
+  * noun 'from' noun -> Empty reverse;
+
+Extend 'fill' first
+  * noun 'with' noun -> Fill;
+
+Extend 'get' first
+  * noun 'with'/'in' noun -> Take;
+
+Extend 'give' replace
+  * noun 'to' creature -> Give
+  * creature noun -> Give reverse
+  * 'over' noun 'to' creature -> Give;
+
+Extend 'jump'
+  * 'across' noun -> JumpOver;
+
+Extend 'lock' first
+  * noun -> Lock;
+
+Extend 'look'
+  * 'into' noun -> Search
+  * 'behind'/'under' noun -> LookUnder;
+
+Extend 'open' replace
+  * noun -> Open
+  * noun 'with' held -> Open;
+
+Extend 'pick'
+  * noun -> Take;
+
+Extend 'pry' replace
+  * noun -> Open
+  * 'apart'/'open' noun -> Open
+  * noun 'apart'/'open' -> Open
+  * noun 'with' held -> Open
+  * 'apart'/'open' noun 'with' held -> Open
+  * noun 'apart'/'open' 'with' held -> Open;
+
+Extend only 'put' first
+  * 'out' noun -> Extinguish
+  * noun 'out' -> Extinguish;
+
+Extend 'read' first
+  * noun -> Read;
+
+Extend only 'rub' 'wipe'
+  * held 'on'/'onto' noun -> PutOn;
+
+Extend only 'say' first
+  * topic -> Say;
+
+Extend only 'speak' replace
+  * -> Talk
+  * creature -> Talk
+  * noun -> Talk
+  * 'to'/'with' creature -> Talk
+  * 'to'/'with' noun -> Talk
+  * 'to'/'with' creature 'about' topic -> Ask
+  * 'to'/'with' noun 'about' topic -> Ask;
+
+Extend only 'take' first
+  * noun 'with'/'in' noun -> Take;
+
+Extend 'unlock' first
+  * noun -> Unlock;
+
+Verb meta 'about' 'info'
+  * -> About;
+
+Verb meta 'credits'
+  * -> Credits;
+
+Verb 'cross' = 'enter';
+
+Verb 'dance'
+  * -> Dance;
+
+Verb 'extinguish' 'douse' 'unlight'
+  * noun -> Extinguish;
+
+Verb meta 'help' 'instructions'
+  * -> Help;
+
+Verb 'hint' 'clue'
+  * -> Hint;
+
+Verb 'inspect' = 'examine';
+
+Verb 'pour'
+  * noun -> Pour
+  * 'out' noun -> Pour
+  * noun 'out' -> Pour
+  * noun 'in'/'into'/'inside'/'on'/'onto'/'to' noun -> PourT
+  * noun 'from' noun -> Pour
+  * noun 'out' 'of' noun -> Pour;
+
+Verb 'sharpen'
+  * noun -> Sharpen
+  * noun 'with' held -> Sharpen;
+
+Verb 'smear' 'spread'
+  * held 'on'/'onto' noun -> PutOn;
+
+Verb 'talk' 'babble' 'chat' 'communicate' 'converse' 'gab' 'gossip'
+  * -> Talk
+  * creature -> Talk
+  * noun -> Talk
+  * 'to'/'with' creature -> Talk
+  * 'to'/'with' noun -> Talk
+  * 'to'/'with' creature 'about' topic -> Ask
+  * 'to'/'with' noun 'about' topic -> Ask;
+
+Verb 'use'
+  * noun -> Use;
+
+Verb 'xyzzy' 'plover' 'plugh' 'yoho'
+  * -> MagicWord;
+
+!========================================
+! Actions
+!========================================
+[ AboutSub;
+  print "This game is an adaptation of the Italian adventure 'Antropos: Homo Sapiens' by Bonaventura Di Bello. It was originally written using The Quill and Illustrator and published by Edizioni Hobby S.r.l. on the cover tape of 'Viking', no. 10, November 1987 for the ZX Spectrum and Commodore 64.^^The data was extracted from the C64 version using UnQuill, translated to English and rewritten for a modern audience with the original author's permission. The new version includes many enhancements that weren't in the original. The coding was done using Inform 6 and the PunyInform library.^^";
+  <<Credits>>;
+];
+
+[ AscendSub;
+  <<Go FAKE_U_OBJ>>;
+];
+
+[ AskAboutSub x count npc;
+  objectloop (x in location && x has animate && x ~= player)
+  {
+    count++;
+    npc = x;
+  }
+  if (count == 0)
+    "There's no one here to answer your questions.";
+  if (count == 1)
+    <<Ask npc noun>>;
+  "As there are multiple characters here, you'll have to specify who to ask, e.g. ASK MAN ABOUT DOG.";
+];
+
+[ CreditsSub;
+  "Original concept, game design and coding by Bonaventura Di Bello.^English translation, game redesign and coding by Garry Francis.^Play testing by BrownPants, David Etherton, Gianluca Girelli, Joel Burton, Pablo Martinez, Robert Eggleston and Rovarsson.";
+];
+
+[ DanceSub;
+  "You haven't learnt to dance, as you haven't yet discovered the need for it.";
+];
+
+[ DescendSub;
+  <<Go FAKE_D_OBJ>>;
+];
+
+[ ExtinguishSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "You can't extinguish ", (ThatOrThose)noun, ".";
+];
+
+[ GoSub _prop;
+  if (selected_direction == ne_to or nw_to or se_to or sw_to)
+    "There are no diagonal directions in this game.";
+  _prop = selected_direction;
+#Iftrue RUNTIME_ERRORS > RTE_MINIMUM;
+  if (_prop == 0)
+    return _RunTimeError(ERR_INVALID_DIR_PROP);
+#Endif;
+  return GoDir(_prop);
+];
+
+[ HelpSub;
+  "Tell me what to do using simple commands starting with a verb.^^Use LOOK (or L) to refresh the location description. Identify all the objects in the description and EXAMINE (or X) each one. Read responses carefully for hints.^^Use compass directions (N, S, E, W, U and D) to move around. Draw a map as you go.^^Use GET or TAKE to take objects and DROP to drop them again. Use INVENTORY (or I) to see what you're carrying.^^Use AGAIN (or G) to repeat the last command.^^Use UNDO to undo the last command if you make a mistake.^^Use SAVE to save the game and RESTORE to restore it again.^^There are over 100 verbs that you can use, so if something doesn't work, try a different verb or a different way of doing things. Use HINT if you get stuck.^^For full instructions, see the game page at <https://bdb-project.itch.io/homo-sapiens>.";
+];
+
+[ HintSub;
+  if (woman in location && brambles has general)
+    "Try taking the young woman to a safe shelter.";
+  "Examine everything you find and draw a map.";
+];
+
+[ LockSub k;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  if (noun hasnt lockable)
+  {
+    PrintMsg(MSG_LOCK_NOT_A_LOCK, 'lock');
+    rtrue;
+  }
+  if (noun has locked)
+  {
+    PrintMsg(MSG_LOCK_ALREADY_LOCKED);
+    rtrue;
+  }
+  if (noun has open)
+  {
+    PrintMsg(MSG_LOCK_CLOSE_FIRST);
+    rtrue;
+  }
+  k = RunRoutines(noun, with_key);
+  if (k == nothing)
+    "You can't see how to lock ", (ItOrThem)noun, ".";
+  if (second == nothing && k ~= nothing && k in player)
+  {
+    second = k;
+    print "(with ", (the)second, ")^";
+  }
+  if (second == nothing)
+    "You don't have the key.";
+  if (second ~= k)
+  {
+    PrintMsg(MSG_LOCK_KEY_DOESNT_FIT);
+    rtrue;
+  }
+  give noun locked;
+  run_after_routines_msg = MSG_LOCK_DEFAULT;
+  run_after_routines_arg_1 = 'lock';
+];
+
+[ LookUnderSub;
+  if (location == thedark)
+    "But it's dark.";
+  "You find nothing of interest.";
+];
+
+[ MagicWordSub;
+  "As you're a primitive man, you haven't yet learnt to speak and you mumble a nonsense word. Unbeknownst to you, it's a magic word. There's a puff of smoke and a wizard appears. He looks around at the primitive environment, then looks at you and raises his eyebrows. ~Call me when you've put some clothes on.~ With that, there's another puff of smoke and the wizard disappears, but you don't understand what he said.";
+];
+
+[ PourSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  if (parent(noun) hasnt container)
+    "You can't pour ", (ThatOrThose)noun, ".";
+  <<Empty (parent(noun))>>;
+];
+
+[ PourTSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  if (parent(noun) hasnt container)
+    "You can't pour ", (ThatOrThose)noun, ".";
+  if (ObjectIsUntouchable(second))
+    rtrue;
+  <<EmptyT (parent(noun)) second>>;
+];
+
+[ ReadSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "There's nothing legible on ", (ThatOrThose)noun, ".";
+];
+
+[ SaySub i;
+  if (consult_words == 0)
+    "You have nothing to say.";
+  print "~";
+  i = consult_from;
+  print (firstConsultWord)i++;
+  while (i < consult_from + consult_words)
+    print " ", (consultWord)i++;
+  print ".~^^";
+  wn = consult_from;
+  if (consult_words == 1 && NextWord() == 'xyzzy' or 'plover' or 'plugh' or 'yoho')
+    <<MagicWord>>;
+  if (AfterRoutines())
+    return;
+  "Nothing happens.";
+];
+
+[ SharpenSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "You can't sharpen ", (the)noun, ".";
+];
+
+[ TalkSub;
+  if (noun == nothing)
+    "You start talking to no one in particular.";
+  if (noun == player)
+    "You start talking to yourself, but it's a one-sided conversation.";
+  if (RunLife(noun, ##Talk))
+    rtrue;
+  print_ret (The)noun, " ", (IsOrAre)noun, " not very talkative.";
+];
+
+[ UnlockSub k;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  if (noun hasnt lockable)
+  {
+    PrintMsg(MSG_UNLOCK_NOT_A_LOCK, 'unlock');
+    rtrue;
+  }
+  if (noun hasnt locked)
+  {
+    PrintMsg(MSG_UNLOCK_ALREADY_UNLOCKED, 'unlock');
+    rtrue;
+  }
+  k = RunRoutines(noun, with_key);
+  if (k == nothing)
+    "You can't see how to unlock ", (ItOrThem)noun, ".";
+  if (second == nothing && k ~= nothing && k in player)
+  {
+    second = k;
+    print "(with ", (the)second, ")^";
+  }
+  if (second == nothing)
+    "You don't have the key.";
+  if (second ~= k)
+  {
+    PrintMsg(MSG_UNLOCK_KEY_DOESNT_FIT);
+    rtrue;
+  }
+  give noun ~locked;
+  run_after_routines_msg = MSG_UNLOCK_DEFAULT;
+  run_after_routines_arg_1 = 'unlock';
+];
+
+[ UseSub;
+  if (ObjectIsUntouchable(noun))
+    rtrue;
+  "You'll have to be more explicit than that.";
+];
+
+End;

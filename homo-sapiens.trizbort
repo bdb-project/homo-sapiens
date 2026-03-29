@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.9.3">
+	<info>
+		<title>Homo Sapiens</title>
+		<author>Garry Francis</author>
+	</info>
+	<map>
+		<room id="3" name="Rainforest" subtitle="" x="-280" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rainforest|Trees|Branches|Leaves|Undergrowth|Worms and other creepy crawlies|Bulk ferns|(Bunch of ferns)|(Tree on fire)</objects>
+		</room>
+		<room id="4" name="Rainforest" subtitle="" x="-160" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rainforest|Trees|Branches|Leaves|Undergrowth|Worms and other creepy crawlies|Bulk ferns|(Bunch of ferns)</objects>
+		</room>
+		<room id="5" name="Edge of Rainforest" subtitle="" x="-40" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Nearby rainforest|Nearby trees|Rocky terrain</objects>
+		</room>
+		<room id="6" name="Rainforest" subtitle="" x="-160" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rainforest|Trees|Branches|Leaves|Undergrowth|Worms and other creepy crawlies|Bulk ferns|(Bunch of ferns)</objects>
+		</room>
+		<room id="8" name="Close to Peak" subtitle="" x="80" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Peak of mountain|Smoke|Heat-carved grooves|Molten metal|(Cold metal)</objects>
+		</room>
+		<room id="9" name="West Wall of Chasm" subtitle="" x="200" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Animal path|West wall|Chasm|Landslide</objects>
+		</room>
+		<room id="11" name="Rocky Terrain" subtitle="" x="60" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rocky terrain|Metallic glints|Rocky slope|Peak of mountain|Piles of ash</objects>
+		</room>
+		<room id="12" name="Rocky Slope" subtitle="" x="200" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rocky slope|Peak of mountain|Animal path</objects>
+		</room>
+		<room id="13" name="Southern End of Gorge" subtitle="" x="320" y="0" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Gorge|Rock wall|Mountains|Walls|Passage|Debris</objects>
+		</room>
+		<room id="14" name="Rocky Terrain" subtitle="" x="60" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Nearby rainforest|Nearby trees|Rocky terrain|Metallic glints|Gnarled branch|(Bloodied branch)|(Burning branch)|(Burnt branch)</objects>
+		</room>
+		<room id="15" name="Valley" subtitle="" x="440" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Grassy valley|Brambles|Young woman|Dinosaur</objects>
+		</room>
+		<room id="16" name="Grassy Valley" subtitle="" x="320" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Passage|Grassy valley|Flowers</objects>
+		</room>
+		<line id="28">
+			<dock index="0" id="3" port="e" />
+			<dock index="1" id="4" port="w" />
+		</line>
+		<line id="29">
+			<dock index="0" id="4" port="s" />
+			<dock index="1" id="6" port="n" />
+		</line>
+		<line id="36">
+			<dock index="0" id="9" port="s" />
+			<dock index="1" id="12" port="n" />
+		</line>
+		<line id="45">
+			<dock index="0" id="11" port="s" />
+			<dock index="1" id="14" port="n" />
+		</line>
+		<line id="48" style="dashed">
+			<dock index="0" id="13" port="s" />
+			<dock index="1" id="16" port="n" />
+		</line>
+		<room id="92" name="Homo Sapiens (Garry Francis)" subtitle="" x="-280" y="-280" w="800" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="37" name="Branches of Tree" subtitle="" x="-280" y="-240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rainforest|Trees|Branches|Leaves|Undergrowth|Large nest|Broken egg shells|Huge snake|(Dead snake)</objects>
+		</room>
+		<room id="39" name="Rocky Terrain" subtitle="" x="-40" y="-240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rocky terrain|Metallic glints|Cliff|Nearby rainforest|Nearby trees|Remains of a tortoise|Large ants|(Tortoise shell)</objects>
+		</room>
+		<room id="40" name="Rock Face" subtitle="" x="80" y="-240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rocky terrain|Cliff|Steep ridge</objects>
+		</room>
+		<room id="41" name="Top of Steep Ridge" subtitle="" x="200" y="-240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cliff|Steep ridge</objects>
+		</room>
+		<room id="42" name="Small Cave" subtitle="" x="320" y="-240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Cave|Remains of men|Remains of fireplace|Animal bones|(Saber-toothed tiger)|(Canines)|(Dead snake)</objects>
+		</room>
+		<room id="44" name="Rim of Volcano" subtitle="" x="80" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Volcano</objects>
+		</room>
+		<room id="49" name="Edge of Chasm" subtitle="" x="200" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Steep ridge|Chasm|Sapling</objects>
+		</room>
+		<room id="56" name="Northern End of Gorge" subtitle="" x="320" y="-160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Sapling|Gorge|Mountains|Walls|Cave|(Trail of blood)|(Top half of tortoise shell)</objects>
+		</room>
+		<room id="60" name="Central Part of Gorge" subtitle="" x="320" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">West wall|Landslide|Gorge|Mountains|Saber-toothed tiger|Canines|Rubble</objects>
+		</room>
+		<room id="69" name="Edge of Rainforest" subtitle="" x="-60" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Nearby rainforest|Nearby trees|Rocky terrain</objects>
+		</room>
+		<room id="73" name="Bank of Stream" subtitle="" x="-60" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Rainforest|Trees|Bank|Stream|Bulk water|(Water)|Strange plant|Bulk fruit|(Gelatinous fruit)</objects>
+		</room>
+		<room id="85" name="Amongst Landslide" subtitle="" x="440" y="-80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Landslide|Rubble|(Obsidian)</objects>
+		</room>
+		<line id="98" startText="U" endText="D">
+			<dock index="0" id="39" port="e" />
+			<dock index="1" id="40" port="w" />
+		</line>
+		<line id="102">
+			<dock index="0" id="4" port="e" />
+			<dock index="1" id="5" port="w" />
+		</line>
+		<line id="110" startText="D" endText="U">
+			<dock index="0" id="9" port="e" />
+			<dock index="1" id="60" port="w" />
+		</line>
+		<line id="111" style="dashed">
+			<dock index="0" id="60" port="e" />
+			<dock index="1" id="85" port="w" />
+		</line>
+		<line id="115" startText="E,U" endText="W,D">
+			<dock index="0" id="11" port="e" />
+			<dock index="1" id="12" port="w" />
+		</line>
+		<line id="120">
+			<dock index="0" id="69" port="e" />
+			<dock index="1" id="14" port="w" />
+		</line>
+		<line id="136">
+			<dock index="0" id="39" port="s" />
+			<dock index="1" id="5" port="n" />
+		</line>
+		<line id="138">
+			<dock index="0" id="69" port="s" />
+			<dock index="1" id="73" port="n" />
+		</line>
+		<line id="140" startText="D" endText="U">
+			<dock index="0" id="44" port="s" />
+			<dock index="1" id="8" port="n" />
+		</line>
+		<line id="142">
+			<dock index="0" id="41" port="s" />
+			<dock index="1" id="49" port="n" />
+		</line>
+		<line id="145" startText="S,OUT" endText="N,IN">
+			<dock index="0" id="42" port="s" />
+			<dock index="1" id="56" port="n" />
+		</line>
+		<line id="146" style="dashed">
+			<dock index="0" id="56" port="s" />
+			<dock index="1" id="60" port="n" />
+		</line>
+		<line id="147" style="dashed">
+			<dock index="0" id="60" port="s" />
+			<dock index="1" id="13" port="n" />
+		</line>
+		<line id="99" startText="U" endText="D">
+			<dock index="0" id="40" port="e" />
+			<dock index="1" id="41" port="w" />
+		</line>
+		<room id="231" name="Copyright © Garry Francis 2026" subtitle="" x="320" y="160" w="200" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="232" name="Legend" subtitle="" x="-300" y="60" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="None" description="" roomFill="#FFFFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="240" name="Start Room" subtitle="" x="-300" y="100" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="241" name="Normal Room" subtitle="" x="-300" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="415" startText="D" endText="U">
+			<dock index="0" id="37" port="ssw" />
+			<dock index="1" id="3" port="nnw" />
+		</line>
+		<line id="2">
+			<dock index="0" id="3" port="s" />
+			<point index="1" x="-240" y="-60" />
+		</line>
+		<line id="7" startText="D" endText="U">
+			<dock index="0" id="8" port="se" />
+			<dock index="1" id="12" port="nw" />
+		</line>
+		<line id="10">
+			<dock index="0" id="6" port="e" />
+			<point index="1" x="-20" y="-60" />
+		</line>
+		<line id="17">
+			<dock index="0" id="3" port="n" />
+			<dock index="1" id="4" port="n" />
+		</line>
+		<line id="18" flow="oneWay">
+			<dock index="0" id="3" port="wnw" />
+			<dock index="1" id="3" port="wsw" />
+		</line>
+		<line id="19" flow="oneWay">
+			<dock index="0" id="6" port="s" />
+			<dock index="1" id="6" port="ssw" />
+		</line>
+		<line id="20">
+			<dock index="0" id="69" port="n" />
+			<point index="1" x="-20" y="-60" />
+		</line>
+		<line id="21">
+			<dock index="0" id="6" port="w" />
+			<point index="1" x="-240" y="-60" />
+		</line>
+		<line id="24">
+			<dock index="0" id="16" port="e" />
+			<dock index="1" id="15" port="w" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>#FFFF99</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Dark Name="Dark" TextColor="Black">Silver</Dark>
+			<Dead Name="Dead" TextColor="White">Red</Dead>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+			<Normal Name="Normal" TextColor="Black">#FFFF80</Normal>
+			<Underwater Name="Underwater" TextColor="Black">#80FFFF</Underwater>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="12">Arial Narrow</object>
+			<line size="12">Arial Narrow</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>20</size>
+		</grid>
+		<lines>
+			<width>1</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>10</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>20</connectionStalkLength>
+			<preferredDistanceBetweenRooms>40</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+		</rooms>
+		<ui>
+			<handleSize>8</handleSize>
+			<snapToElementSize>8</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

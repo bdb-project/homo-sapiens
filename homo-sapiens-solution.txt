@@ -1,0 +1,132 @@
+Homo Sapiens
+By Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. Some optional (but significant) commands are shown in parentheses. These can be omitted once you know what to do.
+
+(X ME) (you're naked)
+S
+E
+E
+GET BRANCH
+(X IT) (it would make a good club)
+W
+S
+(X PLANT) (it's covered in gelatinous fruits)
+GET FRUIT
+(X IT) (transparent skin covering slimy substance & has sweet scent)
+N
+N
+N
+E
+N
+(X TORTOISE) (it's covered in ants)
+(X ANTS) (there are thousands of them)
+(GET TORTOISE) (keep your distance from the ants)
+DROP FRUIT (ants tear fruit into pieces and carry them away to their nest)
+GET SHELL
+(X IT) (top half would make good container if you could remove bottom half)
+U
+U
+S
+THROW SHELL INTO CHASM (you hear hollow clunk when it hits bottom)
+N
+D
+D
+S
+W
+W
+U (or CLIMB TREE) (note that height of tree makes it vulnerable to lightning)
+HIT SNAKE WITH BRANCH (it's now bloodied and lifeless)
+GET IT
+(X BRANCHES) (note that branches have been struck by lightning in the past)
+D
+S
+E
+E
+N
+E
+N
+D (there's a sabre-toothed tiger here)
+DROP SNAKE (tiger drags it off to the north to eat at its leisure)
+E
+X RUBBLE (you find a sharp-edged piece of obsidian)
+GET OBSIDIAN
+W
+N
+GET SHELL
+(X IT) (it's the top half, the bottom half is broken off and lost in the rocks)
+S
+(S)
+(X WALL) (there's a narrow slit blocked with debris, so come back later)
+(N)
+U
+S
+W
+S
+W
+S
+FILL SHELL WITH WATER
+GET FRUIT
+N
+E
+N
+E
+U (the grooves contain some molten metal)
+POUR WATER ON METAL (shortly after this, the sky darkens as a storm approaches)
+GET METAL
+D
+W
+S
+W
+N
+W
+U (or CLIMB TREE)
+PUT METAL IN NEST
+D (wait until lightning strikes, if it hasn't done so already)
+(X TREE) (you wonder if you can make use of the fire)
+(X FERNS) (the smoke and smell would scare off any predator)
+LIGHT BRANCH (or BURN BRANCH)
+S
+CUT FERNS WITH OBSIDIAN
+GET FERNS
+E
+E
+N
+E
+N
+D
+S
+(EXAMINE WALL) (there's a narrow slit in the wall)
+(S) (you're carrying too much to squeeze through the crack)
+DROP ALL EXCEPT FRUIT
+(S) (you still can't squeeze through, perhaps if you were more slippery...)
+SPREAD FRUIT ON ME
+(X ME) (you're now covered in a gelatinous substance that makes you slippery)
+(S) (you can now slip through)
+(N)
+GET BRANCH
+S
+DROP BRANCH
+N
+GET FERNS
+S
+DROP FERNS
+N
+GET OBSIDIAN
+S
+GET ALL (ferns and branch taken)
+E (there's a woman stuck behind brambles being terrorised by a dinosaur)
+(X WOMAN) (she's screaming a lot)
+DROP FERNS
+BURN THEM WITH BRANCH (the smoke drives the dinosaur away)
+CUT BRAMBLES WITH OBSIDIAN (woman escapes brambles, she'll now follow you)
+DROP OBSIDIAN
+W
+N
+N
+N
+N (tiger scared off by fire and you both live happily ever after...hopefully)
+***THE END***
